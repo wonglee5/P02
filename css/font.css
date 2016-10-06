@@ -1,0 +1,46 @@
+/* 
+
+	Declare Aargh, Qarmic and Chaplin font 
+
+*/
+
+@font-face {
+	font-family: 'Chaplin';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Chaplin.eot');
+	src: url('../fonts/Chaplin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Chaplin-webfont.woff2') format('woff2'),
+		url('../fonts/Chaplin-webfont.woff') format('woff'),
+		url('../fonts/Chaplin.ttf') format('truetype'); 
+
+}
+
+
+@font-face {
+	font-family: 'Qarmic';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Qarmic_sans_Abridged-webfont.eot');
+	src: url('../fonts/Quarmic_sans_Abridged.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Qarmic_sans_abridged-webfont.woff2') format('woff2'),
+		url('../fonts/Qarmic_sans_Abridged-webfont.woff') format('woff'),
+		url('../fonts/Qarmic_sans_Abridged-webfont.ttf') format('truetype'); 
+
+}
+
+
+@font-face {
+	font-family: 'Aaargh';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Aaargh-webfont.eot');
+	src: url('../fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Aaargh-webfont.woff2') format('woff2'),
+		url('../fonts/Aaargh-webfont.woff') format('woff'),
+		url('../fonts/Aaargh-webfont.ttf') format('truetype'); 
+
+}
+
+
+

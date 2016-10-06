@@ -1,0 +1,182 @@
+/* 
+
+	styleGuide.css 
+
+*/
+
+
+/* 
+	Section codes ------------------
+*/
+
+/*line between sections */
+section:not([id]) {
+  margin: 0 5em;
+  padding: 2em 0;
+  border-bottom: 0.10em solid gray;
+}
+
+/*grey box around sample code */
+section code {
+  background-color: #EEE;
+  display: block;
+}
+
+pre {
+	white-space: pre-wrap;
+}
+
+/* 
+	Overall Typography items
+	padding: top, right, bottom, left;
+*/
+
+
+body {
+	font-family: 'Aaargh', sans-serif;	
+	line-height: 150%;
+	padding: 3em;
+}
+
+h1 {
+	font-family: 'Chaplin', sans-serif;
+	font-size: 3rem;
+}
+
+h2 {
+	font-family: 'Qarmic', sans-serif;
+
+}
+
+h3 {
+	font-family: 'Qarmic', sans-serif;
+
+}
+
+figure {
+	font-style: italic;
+}
+
+
+/* 
+	BRAND COMPONENT -------------------
+*/
+
+#colorTable { 
+	margin: 4em 2em; /*top right bottom left */
+	border-collapse: collapse;
+	border: none;
+	border-spacing: 0;
+	font-size:100%;  
+}
+
+th {
+	height: 1em;
+	text-align: center;
+	padding: 0 0 1em;
+}
+
+td { /* th=table header cell  td=cell in the table*/
+ 	height: 4em;
+ 	text-align: center;
+ 	vertical-align: bottom;
+ 	padding: 1em;
+ }
+
+
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+
+/* For Flex box and navigation menu*/
+.nav-main-item {
+	display: inline-block;
+	color: white;
+	background-color: rgb(20, 200, 154);
+	font-family: Qarmic;
+	font-size: 1rem;
+	padding: 0.9rem 0.5rem;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+.nav-main-item:hover, .nav-main-item:focus {
+	background-color: gray;
+}
+
+/* Styling for the navigation button */
+.button-nav {
+	display: inline-block;
+	color: white;
+	background-color: rgb(20, 200, 154);
+	font-family: Qarmic;
+	padding: 0.5em 0.75em;
+	border-radius: 0.3em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: gray;
+}
+
+
+/*submit/reset buttons*/
+
+.button-submit-reset {
+	display: inline-block;
+	padding: 0.5em 1em;
+	color: white;
+	font-family: Qarmic;
+	background-color: rgb(141, 69, 149);
+	border-radius: 0.3em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+}
+
+.button-submit-reset:hover, .button-submit-reset:focus {
+	background-color: rgb(134, 0, 149);
+}
+
+
+/*text field*/
+
+
+input, textarea {
+	display: block;
+	background-color: #EDEBFF;
+	font-family: Aaargh;
+	font-size: 80%;
+	padding: 0.1em 0.5em;
+}
+
+input:focus, textarea:focus {
+	background-color: white;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+p a, ul a{
+	text-decoration: none;
+	color: #14C89A;
+}
+
+p a:hover, p a:focus, ul a:hover, ul a:focus {
+	text-decoration: underline;
+	text-decoration-color: #8D4595;
+}
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+/*For Product Listing, codes are in flexbox.css*/
+/*For Website Grid Structure, codes are in grid.css*/
