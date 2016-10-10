@@ -1,6 +1,6 @@
 /* 
 
-	Declare Aargh, Qarmic and Chaplin font 
+	Declare font-family for website.
 
 */
 
@@ -29,7 +29,7 @@
 
 }
 
-
+/*
 @font-face {
 	font-family: 'Aaargh';
 	font-weight: normal;
@@ -39,8 +39,9 @@
 		url('../fonts/Aaargh-webfont.woff2') format('woff2'),
 		url('../fonts/Aaargh-webfont.woff') format('woff'),
 		url('../fonts/Aaargh-webfont.ttf') format('truetype'); 
-
 }
+*/
+
 @font-face {
 	font-family: 'Cairo';
 	font-weight: normal;
@@ -59,5 +60,94 @@
 	font-style: normal;
 	src: url('../fonts/Cairo/Cairo-Light.ttf');
 }
+
+
+@font-face {
+	font-family: 'Dosis', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Dosis/Dosis-Regular.ttf');
+}	
+
+/* Google Fonts
+@import url('//fonts.googleapis.com/css?family=Architects+Daughter|Athiti|Coiny|Fontdiner+Swanky|Indie+Flower|Jaldi|Kalam|Laila|Raleway|Rancho|Ruda|The+Girl+Next+Door');
+
+
+@font-face {
+	font-family: 'Indie Flower', cursive;
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Indie_Flower/IndieFlower.ttf') format('truetype'); 
+
+}
+*/
+
+
+
+
+/*	Font Suggestions
+@font-face {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Raleway/Raleway.ttf') format('truetype');
+}	
+@font-face {
+	font-family: 'Architects Daughter', cursive;
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Architects_Daughter/ArchitectsDaughter.ttf') format('truetype');
+}	
+
+
+@font-face {
+	font-family: 'Ruda', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Ruda/Ruda-Regular.ttf') format('truetype');
+}	
+
+@font-face {
+	font-family: 'Kalam', cursive;
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Kalam/Kalam-Regular.ttf') format('truetype');
+}	
+	
+@font-face {
+	font-family: 'Jaldi', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Jaldi/Jaldi-Regular.ttf') format('truetype');
+}	
+
+@font-face {
+	font-family: 'Rancho', cursive;
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Rancho/Rancho-Regular.ttf') format('truetype');
+	
+}	
+
+@font-face {
+	font-family: 'Athiti', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Athiti/Athiti-Regular.ttf') format('truetype');
+}	
+
+
+@font-face {
+	font-family: 'The Girl Next Door', cursive;
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/The_Girl_Next_Door.ttf') format('truetype');
+}	
+	
+*/
+
+
+
+
 
 
