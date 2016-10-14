@@ -29,6 +29,45 @@
 
 }
 
+@font-face {
+	font-family: 'Qarmic';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Qarmic_sans_Abridged-webfont.eot');
+	src: url('../fonts/Quarmic_sans_Abridged.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Qarmic_sans_abridged-webfont.woff2') format('woff2'),
+		url('../fonts/Qarmic_sans_Abridged-webfont.woff') format('woff'),
+		url('../fonts/Qarmic_sans_Abridged-webfont.ttf') format('truetype'); 
+
+}
+
+@font-face {
+    font-family: 'mark_my_wordsregular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/mark_my_words.eot');
+	src: url('../fonts/mark_my_words.eot?#iefix') format('embedded-opentype'),
+    	 url('../fonts/mark_my_words-webfont.woff2') format('woff2'),
+         url('../fonts/mark_my_words-webfont.woff') format('woff'),
+         url('../fonts/mark_my_words.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'dosislight';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/dosis-light-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-light-webfont.woff') format('woff'),
+         url('../fonts/Dosis-Light.ttf');
+}
+
+@font-face {
+    font-family: 'dosismedium';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Dosis-Medium.ttf');
+}
+
 /*
 @font-face {
 	font-family: 'Aaargh';
@@ -62,12 +101,7 @@
 }
 
 
-@font-face {
-	font-family: 'Dosis', sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	src: url('../fonts/Dosis/Dosis-Regular.ttf');
-}	
+
 
 /* Google Fonts
 @import url('//fonts.googleapis.com/css?family=Architects+Daughter|Athiti|Coiny|Fontdiner+Swanky|Indie+Flower|Jaldi|Kalam|Laila|Raleway|Rancho|Ruda|The+Girl+Next+Door');

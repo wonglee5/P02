@@ -33,7 +33,7 @@ pre {
 
 
 body {
-	font-family: 'Dosis', sans-serif;
+	font-family: 'dosislight';
 	line-height: 150%;
 	padding: 3em;
 }
@@ -44,12 +44,12 @@ h1 {
 }
 
 h2 {
-	font-family: 'Qarmic', sans-serif;
+	font-family: 'mark_my_wordsregular', sans-serif;
 
 }
 
 h3 {
-	font-family: 'Qarmic', sans-serif;
+	font-family: 'mark_my_wordsregular', sans-serif;
 
 }
 
@@ -107,6 +107,35 @@ td { /* th=table header cell  td=cell in the table*/
 .nav-main-item:hover, .nav-main-item:focus {
 	background-color: gray;
 }
+
+/* for new colour combination suggestion */
+.nav-main-item1 {
+	display: inline-block;
+	color: white;
+	background-color: rgb(0, 0, 0);
+	font-family: dosismedium;
+	font-size: 1rem;
+	padding: 0.9rem 0.5rem;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+.nav-main-item1:hover, .nav-main-item1:focus {
+	background-color: rgb(200, 63, 20);
+}
+
+.nav-logo-test {
+	display: inline-block;
+	color: white;
+	background-color: rgb(0, 0, 0);
+	font-family: Chaplin;
+	font-size: 1rem;
+	padding: 0.9rem 0.5rem;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
 
 /* Styling for the navigation button */
 .button-nav {
