@@ -1,4 +1,4 @@
-/* 
+ 
 
 	styleGuide.css 
 
@@ -83,6 +83,9 @@ td { /* th=table header cell  td=cell in the table*/
  	padding: 1em;
  }
 
+/* button styles test on colorTable s */
+
+
 
 
 
@@ -154,6 +157,65 @@ td { /* th=table header cell  td=cell in the table*/
   background-color: gray;
 }
 
+.button-nav2 {
+	display: inline-block;
+	border-bottom: 6px solid rgba(0, 0, 0, 0.5);
+	color: black;
+	background-color: rgb(240, 240, 240);
+	font-family: Qarmic;
+	padding: 0.5em 0.75em;
+	border-radius: 0.3em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+.button-nav2:hover, .button-nav2:focus {
+  background-color: rgb(20, 200, 154);
+  color: white;
+}
+
+.button-nav3 {
+	display: inline-block;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	color: black;
+	background-color: rgb(240, 240, 240);
+	font-family: Qarmic;
+	padding: 0.5em 0.75em;
+	border-radius: 0.3em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+.button-nav3:hover, .button-nav3:focus {
+  background-color: rgb(20, 200, 154);
+  color: white;
+}
+
+.button-nav4 {
+	display: inline-block;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	color: white;
+	/*background-color: rgb(240, 240, 240);*/
+	background-image: url("../img/catFootprintForButtons.png");
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	font-family: Qarmic;
+	padding: 0.5em 0.75em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+.button-nav4:hover, .button-nav4:focus {
+  background-color: rgb(20, 200, 154);
+  color: white;
+}
+
+
 
 /*submit/reset buttons*/
 
@@ -208,4 +270,4 @@ p a:hover, p a:focus, ul a:hover, ul a:focus {
   COMBINED ELEMENTS -------------------
 */
 /*For Product Listing, codes are in flexbox.css*/
-/*For Website Grid Structure, codes are in grid.css*/
+/*For Website Grid Structure, codes are in grid.css
