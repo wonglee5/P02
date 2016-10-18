@@ -1,0 +1,557 @@
+<!doctype html>
+<!--
+
+IAT 320 P02 Assignment Team members:
+
+SooJin (Diana) Lee    sla169@sfu.ca
+Seven
+Christopher Lai Kong 
+
+
+Main page/style guide for dog cafe website.
+Used style guide template (Style_guide.html) from canvas.sfu.ca
+
+-->
+
+<html>
+
+	<head>
+
+    	<meta charset="utf-8">
+    	<title>IAT 339 P02 Process: Dogentle Cafe</title>
+
+    	<link rel="stylesheet" href="css/fonts.css">
+   		<link rel="stylesheet" href="css/styleGuide.css">
+      
+   		<link rel="stylesheet" href="css/flexbox.css">
+      <link rel="stylesheet" href="css/grids.css">
+
+	</head>
+
+	
+	<body>
+
+  		<h1>Welcome to Dogentle Cafe!</h1>
+
+   	 	<p> Dogentle Cafe is a dog-friendly cafe for pet lovers and pet owners who want to enjoy a nice cup of tea, coffee or baked goods. Our cute cafe dogs can be a playmate with you or for your dogs! Come and enjoy fun and amusing day with cute furry friends.</p>
+
+   		<p> Dogentle Cafe aims to become a cozy space where dog lovers can connect with local dog communities. Enjoy our dog of the day gallery starring many photographs of social media famous dogs. </p> 
+
+
+      <!-- color and brand change suggestion -->
+
+      <p> Dogentle Cafe is a elegant yet hipster style cafe and dog-friendly space for pet lovers and pet owners who want to enjoy a cup of aromatic tea, coffee or delicious baked goods. Our cute cafe dogs can be a companion for your afternoon tea time. Come and visit our gentlemanly dogs with a cute bowtie.</p>
+
+      <p> Dogentle Cafe aims to become a warm and cozy space where dog lovers can connect with local dog communities. Enjoy our vintage style cafe and dog of the day gallery starring many photographs of social media famous dogs. </p> 
+
+    <nav>
+      
+      <p>
+        On this page:
+      </p>
+      <ul>
+      	<li>
+          <a href="#brand_components">Branding</a>
+        </li>
+        <li>
+          <a href="#interactive_elements">Interactive Elements</a>
+        </li>
+        <li>
+          <a href="#text_elements">Text Elements</a>
+        </li>
+        <li>
+          <a href="#combined_elements">Combined Elements</a>
+        </li>
+      </ul>
+
+      <p>Other pages:</p>
+      <ul>
+      	<li><a href="styleguide.html">Style Guide</a>
+        <li><a href="userflow.html">User-flows</a>
+        <li><a href="citation.html">Citations</a>
+      </ul>
+
+    </nav>
+
+    <!-- START_BRAND COMPONENTS SECTION -->
+    <section id="brand_components">
+    	
+    	<section>
+    		<h2>Branding</h2>
+
+    		<h3> Colour Palette</h3>
+
+    		<table id="colorTable" class="cT1">
+      			<tr>
+        			<th>main colours</th>
+        			<th></th>
+        			<th></th>
+        			<th>accent colour</th>
+      				</tr>
+      				<tr>
+        			<td bgcolor="#14C89A">#14C89A</td>
+        			<td bgcolor="#0F9573">#0F9573</td>
+        			<td bgcolor="#808080">#808080</td>
+        			<td bgcolor="#8D4595">#8D4595</td>
+              <td bgcolor="#860095">#860095</td>
+      			</tr>
+    		</table>
+
+        <!-- for new color combination suggestion
+        more hipster with bowtie and mustache feel (?) -->
+        <table id="colorTable2" class="cT2">
+            <tr>
+              <th>main colours</th>
+              <th></th>
+              <th></th>
+              <th>accent colour</th>
+              </tr>
+              <tr>
+              <td bgcolor="#C83F14">#C83F14</td>
+              <td bgcolor="#AE3711">#AE3711</td>
+              <td bgcolor="#624B31">#624B31</td>
+              <td bgcolor="#FB8500">#FB8500</td>
+              <td bgcolor="#000000">#black</td>
+            </tr>
+        </table>
+
+        <table id="colorTable3" class="cT3">
+            <tr>
+              <th>main colours</th>
+              <th></th>
+              <th></th>
+              <th>accent colour</th>
+              </tr>
+              <tr>
+              <td bgcolor="#14C89A">#14C89A</td>
+              <td bgcolor="#6AFDD6">#6AFDD6</td>
+              <td bgcolor="#000000">#000000</td>
+              <td bgcolor="#8D4595">#8D4595</td>
+              <td bgcolor="#860095">#860095</td>
+            </tr>
+        </table>
+    	</section>
+
+    	<section>
+    		<h3>Images and Art Direction</h3>
+    		<figure> 
+     			 <img src="img/dogServer.jpg" alt="A dog with bowtie">
+      			 <figcaption>The dogs in the cafe.</figcaption>
+   			</figure>
+
+		    <figure> 
+		      <img src="img/pomBowtie.jpg" alt="A dog with bowtie">
+		      <figcaption>The dogs in the cafe.</figcaption>
+		    </figure>
+
+		    <figure> 
+		      <img src="img/dogcafe-4.jpg" width="80%" height="80%" alt="A dog inside the cafe">
+		      <figcaption>The potential view of interior.</figcaption>
+		    </figure>
+
+		    <figure> 
+		      <img src="img/interiorDesign.jpg" width="85%" height="85%" alt="Inside the cafe.">
+		      <figcaption>Potential interior design.</figcaption>
+		    </figure>
+    	</section>
+
+    </section>
+    <!-- END_BRAND COMPONENTS SECTION -->
+
+
+    <!-- START_INTERACTIVE ELEMENTS SECTION -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3> 
+        <pre>
+        <code>
+        &lt;a class="button-nav" href="#"&gt;Text Here&lt;/a&gt;
+        </code>
+        </pre>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav" href="#">Back</a> 
+        <a class="button-nav" href="#">Home</a>
+        <a class="button-nav" href="#">Cancel</a>  
+
+        <h3>Rendered element 2:</h3>
+        <a class="button-nav2" href="#">Back</a> 
+        <a class="button-nav2" href="#">Home</a>
+        <a class="button-nav2" href="#">Cancel</a>  
+
+        <h3>Rendered element 3:</h3>
+        <a class="button-nav3" href="#">Back</a> 
+        <a class="button-nav3" href="#">Home</a>
+        <a class="button-nav3" href="#">Cancel</a>  
+
+        <h3>Rendered element 4:</h3>
+        <a class="button-nav4" href="#">Back</a> 
+        <a class="button-nav4" href="#">Home</a>
+        <a class="button-nav4" href="#">Cancel</a>  
+
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+        <h3>CSS selector:</h3>
+        <p>p a, ul a</p>
+
+        <h3>Sample code:</h3>
+        <pre>
+        <code>
+        &lt;a href="#"&gt;Text Here&lt;/a&gt; 
+        </code>
+        </pre>
+
+        <h3>Rendered element:</h3>
+        <p>Dogentle Cafe aims to become a cozy space where dog lovers can connect with local dog communities. Enjoy our dog of the day gallery starring many photographs of social media (<a href="https://www.facebook.com/">Facebook</a>, <a href="https://www.instagram.com/">Instagram</a>, etc.) famous dogs.</p>
+      </section>
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+        <h3>CSS selector:</h3>
+        <p>.button-submit-reset</p>
+
+        <h3>Sample code:</h3> 
+        &lt;a class="button" href="#"&gt;Default Button&lt;/a&gt;
+
+        <h3>Rendered element:</h3>
+        <a class="button-submit-reset" href="#">Confirm</a> 
+        <a class="button-submit-reset" href="#">Make a Reservation!</a> 
+        <a class="button-submit-reset" href="#">Reset</a>
+      </section>
+
+      <section>
+        <h2>Text Input Field and Label</h2>
+        <h3>CSS selector:</h3>
+        <p> input, textarea, input:focus, textarea:focus</p>
+
+        <h3>Sample code:</h3>
+        <pre>
+        <code>
+        &lt;form method="post" action="#"&gt;
+          &lt;label for="reserve-form-first"&gt;First&lt;/label&gt;
+          &lt;input type="text" id="reserve-form-first" placeholder="Udon"&gt;
+        
+          &lt;label for="reserve-form-comment"&gt;Comment (optional)
+          &lt;textarea id="form-comment" placeholder="Please comment here about any questions about our service"&gt;&lt;/textarea&gt;
+        &lt;/form&gt;
+        </pre>
+        </code>
+
+        <h3>Rendered element:</h3>
+        <p>Reservation Form Example</p>
+        <form method="post" action="#">
+          <!-- first name field -->
+          <label for="reserve-form-first"><strong>First</strong></label>
+          <input type="text" id="reserve-form-first" placeholder="Udon">
+          <!-- last name field -->
+          <label for="reserve-form-last"><strong>Last</strong></label>
+          <input type="text" id="reserve-form-last" placeholder="Lee">
+          <!--phone number field -->
+          <label for="reserve-form-phone"><strong>Phone</strong></label>
+          <input type="text" id="reserve-form-phone" placeholder="000000000">
+          <!-- email field -->
+          <label for="reserve-form-email"><strong>Email</strong></label>
+          <input type="text" id="reserve-form-email" placeholder="udonlee@dogentlecafe.com">
+          <!-- comments -->
+          <label for="reserve-form-comment"><strong>Comment (optional)</strong></label>
+          <textarea id="form-comment" placeholder="Please comment here about food allergies or questions about our service"></textarea>
+          
+        </form>
+
+      </section>
+
+    </section>
+    <!-- END_INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- START_TEXT ELEMENTS SECTION -->
+    <section id="text_elements">
+
+	    <section>
+        <h2>Typography</h2>
+        <h3>CSS selector:</h3>
+        <p>h1, h2, h3</p>
+
+        <h3>Sample code:</h3>
+        <pre>
+        <code>
+          &lt;h1&gt;text here&lt;/h1&gt;
+          &lt;h2&gt;text here&lt;/h2&gt;
+          &lt;h3&gt;text here&lt;/h3&gt;
+        </code>
+        </pre>
+
+        <h3>Rendered element:</h3>
+	    	  <h1>Header 1</h1>
+	         <h2>Header 2</h2>
+	    	  <h3>Header 3</h3>
+
+	    </section>
+
+	    <section>
+	    	<h2>Paragraphs</h2>
+        <h3>CSS selector:</h3>
+        <p>p</p>
+
+        <h3>Sample code:</h3>
+        <pre>
+        <code>
+        &lt;p&gt;text here&lt;/p&gt;
+        </code>
+        </pre>
+
+        <h3>Rendered element:</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis sagittis magna, a varius velit sodales in. Quisque vitae nisi sit amet purus euismod interdum vel sit amet nulla. Maecenas tempor a sem at rutrum. Fusce eu leo quis risus commodo efficitur. Nam vulputate sit amet augue sit amet bibendum. Donec sit amet tortor vitae eros consectetur fringilla. Maecenas tincidunt elit ipsum, eu tincidunt nibh tincidunt nec. Fusce tincidunt placerat tortor, sed mollis libero euismod sed. Nullam eu venenatis turpis. Suspendisse nec gravida neque. Duis et diam sed est commodo lacinia vitae at mi.</p>
+
+	    </section>
+
+	    <section>
+	    	<h2>Bulleted Lists</h2>
+        <h3>CSS selector:</h3>
+        <p>ul, li</p>
+
+        <h3>Sample code:</h3>
+        <pre>
+        <code>
+        &lt;ul&gt;
+          &lt;li&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        </pre>
+        </code>
+      
+
+        <h3>Rendered element:</h3>
+	    	<ul>
+	    		<li></li>
+	    		<li></li>
+	    		<li></li>
+	    		<li></li>
+	    		<li></li>
+	    	</ul>
+	    </section>
+
+	    <section>
+	    	<h2>Numbered Lists</h2>
+        <h3>CSS selector:</h3>
+        <p>ol, li</p>
+
+        <h3>Sample code:</h3>
+        <pre>
+        <code>
+        &lt;ol&gt;
+          &lt;li&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        </pre>
+        </code>
+
+        <h3>Rendered element:</h3>
+	    	<ol>
+	    		<li></li>
+	    		<li></li>
+	    		<li></li>
+	    		<li></li>
+	    		<li></li>
+	    	</ol>
+	    </section>
+
+    </section>
+    <!-- END_TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- START_COMBINED ELEMENTS SECTION -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.nav-main-item </p>
+
+        <h3>Sample code:</h3>
+        <pre>
+        <code>
+        &lt;nav class="nav-main box"&gt;
+          &lt;a href="#logo_dogentle" class = "nav-main-item box-item"&gt;Logo Here&lt;/a&gt;
+        &lt;/nav&gt;
+        </pre>
+        </code>
+
+        <h3>Rendered element:</h3>
+          <nav class="nav-main box">  
+            <a href="#logo_dogentle" class = "nav-main-item box-item">Logo Here</a>
+            <a href="#about_us" class="nav-main-item box-item">About Us</a>
+            <a href="#dog_profiles" class="nav-main-item box-item">Our Dogs</a>
+            <a href="reservation" class="nav-main-item box-item">Reservation</a>
+            <a href="menu" class="nav-main-item box-item">Menu</a>
+            <a href="Giftshop" class="nav-main-item box-item">Giftshop</a>
+          </nav>
+
+
+          <!-- for new color combination suggestion-
+           <nav class="nav-main box">  
+                <a href="#logo_dogentle" class = "nav-logo-test box-item">Dogentle Cafe</a>
+                <a href="#about_us" class="nav-main-item1 box-item">About Us</a>
+                <a href="#dog_profiles" class="nav-main-item1 box-item">Our Dogs</a>
+                <a href="reservation" class="nav-main-item1 box-item">Reservation</a>
+                <a href="menu" class="nav-main-item1 box-item">Menu</a>
+                <a href="Giftshop" class="nav-main-item1 box-item">Giftshop</a>
+              </nav>
+          -->
+          </section>
+
+      </section>
+
+      
+
+      <section>
+        <h2>Product Listing</h2>
+        <h3>CSS selector:</h3>
+        <p>products, product-box, product-image, product-info</p>
+
+        <h3>Sample code:</h3>
+        <pre>
+        <code>
+        &lt;section class="products"&gt;
+          &lt;div class="product-box box"&gt;
+          &lt;div class="product-image"&gt;
+          &lt;img src="img/stanley.jpg"&gt;
+          &lt;/div&gt;
+          &lt;div class="product-info"&gt;
+          &lt;h3&gt;Stanley&lt;/h3&gt;
+          &lt;p&gt;Our cafe's dog&li;/p&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/section&gt;
+        </code>
+        </pre>
+
+        <h3>Rendered element:</h3>
+        <p>Our dog (dog profile) page and gift shop page shares similar layout, so the example includes image of dogs.</p>
+        <section class="products">
+
+          <!-- product-box 1 -->
+          <div class="product-box box">
+            <div class="product-image">
+              <img src="img/stanley.jpg">
+            </div>
+            <div class="product-info">
+              <h3>Stanley</h3>
+              <p>Our cafe's dog</p>
+            </div>
+          </div>
+
+          <!-- product box 2 -->
+          <div class="product-box box">
+            <div class="product-image">
+              <img src="img/udon.jpg">
+            </div>
+            <div class="product-info">
+              <h3>Udon</h3>
+              <p>Our cafe's dog</p>
+            </div>
+          </div>
+
+          <!-- product box 3 -->
+          <div class="product-box box">
+            <div class="product-image">
+              <img src="img/ben.jpg">
+            </div>
+            <div class="product-info">
+              <h3>Ben</h3>
+              <p>Our cafe's dog</p>
+            </div>
+          </div>
+          
+          <!-- product-box 4 -->
+          <div class="product-box box">
+            <div class="product-image">
+              <img src="img/cat_sample/cat-product4.jpg">
+            </div>
+            <div class="product-info">
+              <h3>Misha</h3>
+              <p>Our cafe's cat</p>
+            </div>
+          </div>
+
+          <!-- product box 5 -->
+          <div class="product-box box">
+            <div class="product-image">
+              <img src="img/cat_sample/cat-product5.jpg">
+            </div>
+            <div class="product-info">
+              <h3>Umi</h3>
+              <p>Our cafe's cat</p>
+            </div>
+          </div>
+
+          <!-- product box 6 -->
+          <div class="product-box box">
+            <div class="product-image">
+              <img src="img/cat_sample/cat-product6.jpg">
+            </div>
+            <div class="product-info">
+              <h3>Lance</h3>
+              <p>Our cafe's cat</p>
+            </div>
+          </div>
+
+        </section>
+
+      </section>
+
+      <section>
+        <h2>Website Grid Structure</h2>
+        <h3>CSS selector:</h3>
+        <p>grid, col-3-3-top, col-3-3-mid, col-1-3, col-3-3-bot</p>
+
+        <h3>Sample code:</h3>
+        <pre>
+        <code>
+        &lt;div class="grid"&gt;
+          &lt;div class="col-3-3-top"&gt;Menu&lt;/div&gt;
+          &lt;div class="col-3-3-mid"&gt;Image Slideshow&lt;/div&gt;
+          &lt;div class="col-1-3"&gt;content&lt;/div&gt;
+          &lt;div class="col-1-3"&gt;content&lt;/div&gt;
+          &lt;div class="col-1-3"&gt;content&lt;/div&gt;
+          &lt;div class="col-3-3-bot"&gt;footer&lt;/div&gt;
+        &lt;/div&gt;
+        </pre>
+        </code>
+
+        <h3>Rendered element:</h3>
+        <div class="grid">
+          <div class="col-3-3-top">Menu</div>
+          <div class="col-3-3-mid">Image Slideshow</div>
+          <div class="col-1-3">content</div>
+          <div class="col-1-3">content</div>
+          <div class="col-1-3">content</div>
+          <div class="col-3-3-bot">footer</div>
+        </div> 
+        
+      </section>
+
+    </section>
+    <!-- END_COMBINED ELEMENTS SECTION -->
+
+
+	</body>
+</html>

@@ -1,0 +1,96 @@
+/* 
+
+	Declare font-family for website.
+
+*/
+
+@font-face {
+	font-family: 'Chaplin';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Chaplin.eot');
+	src: url('../fonts/Chaplin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Chaplin-webfont.woff2') format('woff2'),
+		url('../fonts/Chaplin-webfont.woff') format('woff'),
+		url('../fonts/Chaplin.ttf') format('truetype'); 
+
+}
+
+
+@font-face {
+	font-family: 'Qarmic';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Qarmic_sans_Abridged-webfont.eot');
+	src: url('../fonts/Quarmic_sans_Abridged.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Qarmic_sans_abridged-webfont.woff2') format('woff2'),
+		url('../fonts/Qarmic_sans_Abridged-webfont.woff') format('woff'),
+		url('../fonts/Qarmic_sans_Abridged-webfont.ttf') format('truetype'); 
+
+}
+
+@font-face {
+	font-family: 'Qarmic';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Qarmic_sans_Abridged-webfont.eot');
+	src: url('../fonts/Quarmic_sans_Abridged.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Qarmic_sans_abridged-webfont.woff2') format('woff2'),
+		url('../fonts/Qarmic_sans_Abridged-webfont.woff') format('woff'),
+		url('../fonts/Qarmic_sans_Abridged-webfont.ttf') format('truetype'); 
+
+}
+
+
+@font-face {
+    font-family: 'dosislight';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/dosis-light-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-light-webfont.woff') format('woff'),
+         url('../fonts/Dosis-Light.ttf');
+}
+
+@font-face {
+    font-family: 'dosismedium';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Dosis-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'Laila';
+	font-weight: medium;
+	font-style: medium;
+	src: url('../fonts/Laila/Laila-Medium.ttf');
+}
+
+
+@font-face {
+	font-family: 'Cairo';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Cairo/Cairo-Regular.ttf');
+}
+@font-face {
+	font-family: 'Cairo';
+	font-weight: bold;
+	font-style: normal;
+	src: url('../fonts/Cairo/Cairo-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'Cairo';
+	font-weight: lighter;
+	font-style: normal;
+	src: url('../fonts/Cairo/Cairo-Light.ttf');
+}
+
+
+
+
+
+
+
+
+
