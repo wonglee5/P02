@@ -68,11 +68,7 @@ grids.css
 
 /* added for reservation*/
 .grid-col-1of2 {
-	width:46%;
-	margin: 2rem 2% 2rem;
-	height: 35em;
-	border: 1px solid rgba(0, 0, 0, 0.5);
-	background-color: rgb(240, 240, 240);
+	width:50%;
 }
 
 .grid-row:after {
