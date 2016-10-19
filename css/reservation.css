@@ -1,0 +1,21 @@
+.col {
+	margin: 2rem 2rem 0;
+	/*margin-top: 2rem;*/
+	text-align: left;
+}
+.grid-col-1of2 {
+	width:46%;
+	margin: 2rem 2% 2rem;
+	height: 35em;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background-color: rgb(240, 240, 240);
+}
+
+
+input {
+	/*display: block;*/
+	background-color: #EDEBFF;
+	font-family: Aaargh;
+	font-size: 80%;
+	padding: 0.1em 0.5em;
+}

@@ -1,1 +1,48 @@
-main.css
+/*main.css*/
+
+/* added from style guide */
+h1 {
+	margin-top: 3em;
+	font-family: 'Chaplin', sans-serif;
+	font-size: 3rem;
+}
+
+body {
+	font-family: 'dosislight';
+	line-height: 150%;
+	padding: 3em;
+}
+
+.nav-main {
+	position: fixed;
+}
+.nav-main-item {
+	display: inline-block;
+	color: white;
+	background-color: rgb(0, 0, 0);
+	font-family: Qarmic;
+	font-size: 1rem;
+	padding: 0.9rem 0.5rem;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+.nav-main-item:hover, .nav-main-item:focus {
+	background-color: rgb(20, 200, 154);
+}
+.button-submit-reset {
+	display: inline-block;
+	padding: 0.5em 1em;
+	color: white;
+	font-family: Qarmic;
+	background-color: rgb(141, 69, 149);
+	border-radius: 0.3em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+}
+
+.button-submit-reset:hover, .button-submit-reset:focus {
+	background-color: rgb(134, 0, 149);
+}
