@@ -46,3 +46,9 @@ body {
 .button-submit-reset:hover, .button-submit-reset:focus {
 	background-color: rgb(134, 0, 149);
 }
+
+/* for adjusting the section in gift shop */
+
+.giftShopGallery{
+	margin-top: 5rem;
+}
