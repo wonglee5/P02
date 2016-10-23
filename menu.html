@@ -20,12 +20,14 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Gift Shop</title>
+    <title>Dogentle Cafe</title>
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/grids.css">
     <link rel="stylesheet" href="css/styleGuide.css">
+
+    <!-- <link rel="stylesheet" href="css/flexbox.css"> -->
 
   </head>
 
@@ -59,12 +61,42 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
 
     </nav>
 
-    <!-- the first section is the tab bar of this Giftshop -->
-    <section class="giftShopGallery">
-    	<a href="#ItemGallery">Item Gallery</a>
-      <a href="#SearchingList">Searching</a>
 
-    </section>
+    <!-- Sidebar Menu -->
+    <div class="grid-row">
+      <section id="sidebar-foodmenu" class="grid-col-1of3">
+        <div class="grid-col-1of6">
+          <a href="#" class="nav-main-item box-item">Coffee</a>
+        </div>
+
+        <div class="grid-col-1of6">
+          <a href="#" class="nav-main-item box-item">Tea</a>
+        </div>
+
+        <div class="grid-col-1of6">
+          <a href="#" class="nav-main-item box-item">Baked Goods</a>
+        </div>
+      
+      </section>
+
+      <!-- COMPANY EVENTS, NEWS AND POST SECTION -->
+      <section id="companynews" class="grid-col-2of3">
+        <div class="grid-col-1of3">
+          <h3>FOOD MENU HERE</h3>
+          <div class="placeHolder"><img src="" alt="Img of Café"></div>
+          <p>ITEMS AND PRICING. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lectus euismod, semper tellus sit amet, dignissim magna. Morbi tempus semper lacus, at molestie magna interdum facilisis.</p>
+        </div>
+      </section>
+
+      <!-- FOOTER  shouldn't it be class instead of id for footer since we are using it for all pages??-->
+
+      <section id="footer" class="grid-col-6of6">
+        <h3> Footer placeholder containing social media and other useful links </h3>
+      </section>
+
+    </div>
+
+    
 
   </body>
 

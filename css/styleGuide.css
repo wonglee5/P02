@@ -22,6 +22,8 @@ section code {
   display: block;
 }
 
+
+
 pre {
 	white-space: pre-wrap;
 }
@@ -95,6 +97,14 @@ td { /* th=table header cell  td=cell in the table*/
   INTERACTIVE ELEMENTS -------------------
 */
 
+.nav-main {
+	position: fixed;
+	text-align: center;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 10;
+}
 
 /* For Flex box and navigation menu*/
 .nav-main-item {

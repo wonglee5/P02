@@ -27,18 +27,80 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
     <link rel="stylesheet" href="css/grids.css">
     <link rel="stylesheet" href="css/styleGuide.css">
 
+    <!-- <link rel="stylesheet" href="css/flexbox.css"> -->
+
   </head>
 
   <body>
 
     <nav class="nav-main grid-row">  
-      <a href="#logo_dogentle" class = "nav-main-item box-item">Logo Here</a>
-      <a href="#about_us" class="nav-main-item box-item">About Us</a>
-      <a href="#dog_profiles" class="nav-main-item box-item">Our Dogs</a>
-      <a href="reservation" class="nav-main-item box-item">Reservation</a>
-      <a href="menu" class="nav-main-item box-item">Menu</a>
-      <a href="Giftshop" class="nav-main-item box-item">Giftshop</a>
+
+     <div class="grid-col-1of6">
+        <a href="#index.html" class = "nav-main-item box-item">Logo Here</a>
+      </div>
+
+      <div class="grid-col-1of6">
+        <a href="aboutUs.html" class="nav-main-item box-item">About Us</a>
+      </div>
+
+      <div class="grid-col-1of6">
+        <a href="itemGallery.html" class="nav-main-item box-item">Our Dogs</a>
+      </div>
+
+      <div class="grid-col-1of6">
+        <a href="reservation.html" class="nav-main-item box-item">Reservation</a>
+      </div>
+
+      <div class="grid-col-1of6">
+        <a href="menu.html" class="nav-main-item box-item">Menu</a>
+      </div>
+
+      <div class="grid-col-1of6">
+        <a href="giftShop_main.html" class="nav-main-item box-item">Giftshop</a>
+      </div>
+
     </nav>
+
+
+    <!-- SLIDESHOW BOX HERE -->
+    <div class="grid-row">
+      <section id="slideshow" class="grid-col-6of6">
+        <figure> 
+          <img src="img/dog_gallery/dogcafe-4.jpg" width="100%" height="100%" alt="A dog inside the cafe">
+        </figure>
+      </section>
+
+      <!-- COMPANY EVENTS, NEWS AND POST SECTION -->
+      <section id="companynews" class="grid-col-6of6">
+        <div class="grid-col-1of3">
+          <h3>RECOMMENDED MENU</h3>
+          <div class="placeHolder"><img src="" alt="Img of Café"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lectus euismod, semper tellus sit amet, dignissim magna. Morbi tempus semper lacus, at molestie magna interdum facilisis.</p>
+        </div>
+
+        <div class="grid-col-1of3">
+          <h3>DOG OF THE DAY</h3>
+          <div class="placeHolder"><img src="" alt="Img of Café"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lectus euismod, semper tellus sit amet, dignissim magna. Morbi tempus semper lacus, at molestie magna interdum facilisis.</p>
+        </div>
+
+        <div class="grid-col-1of3">
+          <h3>DOG COMMUNITY NEWS</h3>
+          <div class="placeHolder"><img src="" alt="Dog Community News here"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lectus euismod, semper tellus sit amet, dignissim magna. Morbi tempus semper lacus, at molestie magna interdum facilisis.</p>
+
+        </div>
+      </section>
+
+      <!-- FOOTER  shouldn't it be class instead of id for footer since we are using it for all pages??-->
+
+      <section id="footer" class="grid-col-6of6">
+        <h3> Footer placeholder containing social media and other useful links </h3>
+      </section>
+
+    </div>
+
+    
 
   </body>
 
