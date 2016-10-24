@@ -90,6 +90,62 @@ td { /* th=table header cell  td=cell in the table*/
 /* button styles test on colorTable s */
 
 
+/*
+
+Sidebar Navigation
+
+*/
+
+ul {
+	list-style: none;
+}
+
+#sidebar {
+	float: left;
+	padding: 0;
+	position: relative;
+
+	top: 3em;
+	left: 0;
+	bottom: 0;
+
+	height: 100%;
+
+}
+
+.sidebar-item {
+	padding: 0.75em 0.25em;
+	text-decoration: none;
+	border-bottom: 1px solid black;
+}
+
+.sidebar-items a {
+	padding: 0 1em;
+	text-decoration: none;
+	font-size: 1.2rem;
+	padding: 0.25em 0.5em;
+	display: block;
+}
+
+.sidebar-item:hover, .sidebar-item:focus {
+	background-color: rgb(220, 220, 220);
+}
+
+/*
+@media (min-height: 30em){
+	.sidebar-item {
+		padding: 1em 1.25em;
+	}
+
+	.sidebar-items {
+		font-size: 1.5rem;
+	}
+} 
+*/
+
+/* 
+  Text Section -------------------
+*/
 
 
 

@@ -33,6 +33,10 @@ grids.css
 	width: 33.333%;
 }
 
+.grid-col-2of3 {
+	width: 66.666%;
+}
+
 .grid-col-6of6 {
 	width: 100%;
 }
@@ -48,9 +52,12 @@ grids.css
 	width: 100%;
 }
 
+
 body {
 	padding-top: 10rem;
 }
+
+
 
 /* 
 	
@@ -61,11 +68,4 @@ added for reservation
 .grid-col-1of2 {
 	width:50%;
 }
-/*
-.grid-row:after {
-	content: "";
-	display: block;
-	clear: both;
-}
 
-*/
