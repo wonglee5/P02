@@ -68,4 +68,8 @@ added for reservation
 .grid-col-1of2 {
 	width:50%;
 }
-
+@media  (max-width: 60rem) {
+	.grid-col-1of2 {
+		width:100%;
+	}
+}	
