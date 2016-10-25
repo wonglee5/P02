@@ -52,3 +52,9 @@ body {
 .giftShopGallery{
 	margin-top: 3rem;
 }
+
+.logo{
+	margin-top: -3rem;
+	margin-bottom: -0.5rem;
+	margin-right: 1rem;
+}
