@@ -16,7 +16,6 @@
 	</head>
 
 	<body>
-
    		<nav class="nav-main grid-row">  
 
 	     <div class="grid-col-1of6">
@@ -44,7 +43,9 @@
 	      </div>
     	</nav>
 
-	<h1> Booking and Reservations </h1>
+
+	<h1> Café Reservation </h1>
+	<a class="button-submit-reset" href="reservation.html">back</a>
 	<div class="grid-row">
 		<div class="grid-col-1of2">
 			<p> possibly some placeholder text on how to apply for reservation and some other text about or excellent service and more placeholder text about some new features and limited time offers Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lectus euismod, semper tellus sit amet, dignissim magna. Morbi tempus semper lacus, at molestie magna interdum facilisis</p>
@@ -56,29 +57,51 @@
 
 	<section id="form">
 		<div class="grid-row">
-			<div class="grid-col-1of2">
-					<h2>Café Reservation</h2>
-			     </div>
-			<div class="grid-col-1of2">
-					<h2>Pet Daycare</h2>
-
+			<div class="grid-col-2of3">
+				<form id="reservation" method="post" action="#">
+					
+			      
+		          <!-- first name field -->
+		          <div class="col">
+		          	<label for=""><strong>Info</strong></label>
+		          	<input type="text" id="" placeholder="placeholder">
 		          </div>
+		          <!-- last name field -->
+		          <div class="col">
+		          	<label for=""><strong>Info</strong></label>
+		          	<input type="text" id="" placeholder="placeholder">
+		          </div>
+		          <!--phone number field -->
+		          <div class="col">
+			          <label for="reserve-form-phone"><strong>Info</strong></label>
+			          <input type="text" id="" placeholder="placeholder">
+			      </div>
+		          <!-- email field -->
+		          <div class="col">
+			          <label for="reserve-form-email"><strong>Info</strong></label>
+			          <input type="text" id="" placeholder="placeholder">
+			      </div>
+		          <!-- comments -->
+		          <div class="col">
+			          <label for=""><strong>Info</strong></label>
+			          <textarea id="" placeholder="placeholder"></textarea>
+			      </div>
 		        </form>
 			</div>
-		</div>
-		<div class="grid-row">
-			
-			<div class="grid-col-1of2">
-			          <a class="button-submit-reset" href="cafereservation.html">Confirm</a> 
-			</div>
-			<div class="grid-col-1of2">
-			          <a class="button-submit-reset" href="dayCareSignup.html">Confirm</a> 
+			<div class="grid-col-1of3">
+				<div class="placeHolder"><img src="" alt="Img of pet"></div>
+				<div class="placeHolder"><img src="" alt="Img of pet"></div>
 			</div>
 		</div>
+		        <div class="buttons">
+			          <a class="button-submit-reset" href="confirmationPage.html">Confirm</a> 
+				      <a class="button-submit-reset" href="#">Make a Reservation!</a> 
+				      <a class="button-submit-reset" href="#">Reset</a>
+				  </div>
 
 	</section>
 
-	<section id="footer" >
+	<section id="footer" class="grid-col-6of6">
         <h3> Footer placeholder containing social media and other useful links </h3>
     </section>
 
