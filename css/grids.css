@@ -55,6 +55,7 @@ grids.css
 	width: 60%;
 }
 
+
 .grid-row::after {
 	content: "";
 	display: block;

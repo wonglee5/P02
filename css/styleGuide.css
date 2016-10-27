@@ -257,7 +257,7 @@ ul {
 	padding: 0.5em 1em;
 	color: white;
 	font-family: Qarmic;
-	background-color: rgb(141, 69, 149);
+	background-color: rgb(20, 200, 154);
 	border-radius: 0.3em;
 	text-decoration: none;
 	-webkit-transition: background-color 0.5s ease-out;
@@ -265,7 +265,7 @@ ul {
 }
 
 .button-submit-reset:hover, .button-submit-reset:focus {
-	background-color: rgb(134, 0, 149);
+	background-color: rgb(120, 120, 120);
 }
 
 
