@@ -13,6 +13,11 @@ body {
 	/*padding: 3em;*/
 }
 
+.contentBody{
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
 .nav-main {
 	/*position: fixed;*/
 }
@@ -104,4 +109,10 @@ body {
 .navMain{
 	/*position: fixed;*/
 	background-color: rgb(250,250,250);
+}
+
+
+/* item contents */
+.itemContent{
+	/*padding-left: -1rem;*/
 }

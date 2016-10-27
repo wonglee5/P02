@@ -61,23 +61,37 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
 
 
     <!-- the first section is the tab bar of this Giftshop -->
-    <section class="giftShopGallery">
-    	<a href="#ItemGallery">Item Gallery</a>
-      <a href="#SearchingList">Searching</a>
-
+    <section class="grid-col-1of6">
+      <nav class="sidebar-menu grid-col-1of6">
+        <div id="sidebar">
+          <ul class="sidebar-items">
+            <li class="sidebar-item">
+              <a href="#coffee">Item Gallery</a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#tea">Do the Reservation</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </section>
 
 
     <!-- this section is for details of one item -->
-    <section class="giftShopGallery">
-      <figure> 
-          <img src="img/dog_gallery/udon.jpg" width="55%" height="55%" alt="Image of Selected Item">
-          <figcaption>Potential interior design.</figcaption>
-        </figure>
+    <section class="giftShopGallery gird-col-5of6">
+      <div class="grid-col-1of2">
+        <figure> 
+            <img src="img/dog_gallery/udon.jpg" width="75%" height="75%" alt="Image of Selected Item">
+            <figcaption>This is Udon, our food.</figcaption>
+          </figure>
+      </div>
 
+      <div class="grid-col-1of6">
+        <h3>Udon</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dolor lorem, efficitur vitae pharetra vitae, tempus ac leo. Sed tincidunt, ligula id laoreet euismod, magna augue commodo velit, eget molestie diam erat ut sem. In semper dictum semper. Cras sapien mauris, pellentesque vel lorem in, scelerisque semper odio. Praesent ut commodo lectus. Sed feugiat nulla laoreet dui elementum malesuada. Fusce enim arcu, sodales non tristique egestas, fringilla vel risus. Donec ac turpis nunc. Mauris tincidunt nisl magna, sit amet efficitur dolor auctor vulputate. Duis venenatis sodales enim, vitae tincidunt nibh tincidunt id. Proin vehicula hendrerit nulla, ut congue erat cursus interdum. Nam scelerisque ipsum eget urna suscipit, vel sagittis enim suscipit. Aenean ligula ante, rhoncus eget erat non, blandit blandit nunc. Suspendisse convallis sem sed mi sollicitudin rhoncus. Phasellus imperdiet quam nisl, eget semper quam rutrum ac. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
-        <h4><a href="paymentDetail.html">Buy It!</a></h4>
+      </div>
+
     </section>
 
   </body>
