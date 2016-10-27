@@ -15,10 +15,16 @@ body {
 }
 
 .buttons {
-	position: relative;
-	top: auto;
-	bottom: 5em;
-	left: 5em;
+	display: block;
+	padding: 1em;
+}
+
+.buttons img {
+	width: 100%;
+	color: rgb(100,100,100);
+}
+.buttons:hover {
+	color: rgba(0,0,0,0);
 }
 .placeHolder{
 	width: 12em;
