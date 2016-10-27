@@ -104,9 +104,9 @@ body {
 	color: rgb(0,0,0);
 	/*background-image: url("../img/logo.png");*/
 	display: inline-block;
-	font-family: Qarmic;
+	font-family: Allan;
 	background-color: rgb(220, 220,220 );
-	font-size: 1rem;
+	font-size: 1.5rem;
 	padding: 1.25rem 0rem;
 	margin: auto;
 	text-align: center;
@@ -119,8 +119,8 @@ body {
 	display: inline-block;
 	color: black;
 	background-color: rgb(250,250,250);
-	font-size: 1rem;
-	font-family: Qarmic;
+	font-size: 1.5rem;
+	font-family: Allan;
 	float: right;
 	padding: 1.25rem 1.5rem;
 	margin: auto -0.2rem;
@@ -145,8 +145,13 @@ body {
 	background-color: rgb(250,250,250);
 }
 
+<<<<<<< Updated upstream
 
 /* item contents */
 .itemContent{
 	/*padding-left: -1rem;*/
+=======
+a.logo {
+	font-family: RumRaisin;
+>>>>>>> Stashed changes
 }

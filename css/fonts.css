@@ -42,15 +42,17 @@
 }
 
 @font-face {
-	font-family: 'Aaargh';
+	font-family: 'RumRaisin';
 	font-weight: normal;
 	font-style: normal;
-	src: url('../fonts/Aaargh-webfont.eot');
-	src: url('../fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Aaargh-webfont.woff2') format('woff2'),
-		url('../fonts/Aaargh-webfont.woff') format('woff'),
-		url('../fonts/Aaargh-webfont.ttf') format('truetype'); 
+	src: url('../fonts/Rum_Raisin/RumRaisin-Regular.ttf') format('truetype'); 
+}
 
+@font-face {
+	font-family: 'Allan';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Allan/Allan-Regular.ttf') format('truetype'); 
 }
 
 @font-face {

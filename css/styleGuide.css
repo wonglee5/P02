@@ -41,19 +41,21 @@ body {
 }
 
 h1 {
-	font-family: 'Rancho', serif;
+	font-family: 'RumRaisin', serif;
 	font-size: 3rem;
 }
 
 h2 {
-	font-family: 'Cairo', sans-serif;
+	font-family: 'Allan', sans-serif;
 	font-style: bold;
+	font-size: 1.5em;
 
 }
 
 h3 {
-	font-family: 'Cairo', sans-serif;
+	font-family: 'Allan', sans-serif;
 	font-style: bold;
+	font-size: 1.5em;
 
 }
 
