@@ -28,41 +28,6 @@ pre {
 	white-space: pre-wrap;
 }
 
-/* 
-	Overall Typography items
-	padding: top, right, bottom, left;
-*/
-
-
-body {
-	font-family: 'dosislight';
-	line-height: 150%;
-	/*padding: 3em;*/
-}
-
-h1 {
-	font-family: 'RumRaisin', serif;
-	font-size: 3rem;
-}
-
-h2 {
-	font-family: 'Allan', sans-serif;
-	font-style: bold;
-	font-size: 1.5em;
-
-}
-
-h3 {
-	font-family: 'Allan', sans-serif;
-	font-style: bold;
-	font-size: 1.5em;
-
-}
-
-figure {
-	font-style: italic;
-}
-
 
 /* 
 	BRAND COMPONENT -------------------
@@ -89,49 +54,7 @@ td { /* th=table header cell  td=cell in the table*/
  	padding: 1em;
  }
 
-/* button styles test on colorTable s */
-
-
-/*
-
-Sidebar Navigation
-
-*/
-
-ul {
-	list-style: none;
-}
-
-#sidebar {
-	float: left;
-	padding: 0;
-	position: relative;
-
-	top: 3em;
-	left: 0;
-	bottom: 0;
-
-	height: 100%;
-
-}
-
-.sidebar-item {
-	padding: 0.75em 0.25em;
-	text-decoration: none;
-	border-bottom: 1px solid black;
-}
-
-.sidebar-items a {
-	padding: 0 1em;
-	text-decoration: none;
-	font-size: 1.2rem;
-	padding: 0.25em 0.5em;
-	display: block;
-}
-
-.sidebar-item:hover, .sidebar-item:focus {
-	background-color: rgb(220, 220, 220);
-}
+/* OLD NAVIGATION BAR */
 
 
 .nav-main {
@@ -190,63 +113,6 @@ ul {
   background-color: gray;
 }
 
-.button-nav2 {
-	display: inline-block;
-	border-bottom: 6px solid rgba(0, 0, 0, 0.5);
-	color: black;
-	background-color: rgb(240, 240, 240);
-	font-family: Qarmic;
-	padding: 0.5em 0.75em;
-	border-radius: 0.3em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s ease-out;
-	transition: background-color 0.5s ease-out;
-}
-
-.button-nav2:hover, .button-nav2:focus {
-  background-color: rgb(20, 200, 154);
-  color: white;
-}
-
-.button-nav3 {
-	display: inline-block;
-	border: 1px solid rgba(0, 0, 0, 0.5);
-	color: black;
-	background-color: rgb(240, 240, 240);
-	font-family: Qarmic;
-	padding: 0.5em 0.75em;
-	border-radius: 0.3em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s ease-out;
-	transition: background-color 0.5s ease-out;
-}
-
-.button-nav3:hover, .button-nav3:focus {
-  background-color: rgb(20, 200, 154);
-  color: white;
-}
-
-.button-nav4 {
-	display: inline-block;
-	border: 1px solid rgba(0, 0, 0, 0.5);
-	border-radius: 50%;
-	color: white;
-	/*background-color: rgb(240, 240, 240);*/
-	background-image: url("../img/catFootprintForButtons.png");
-	background-size: 80%;
-	background-repeat: no-repeat;
-	background-origin: content-box;
-	font-family: Qarmic;
-	padding: 0.5em 0.75em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s ease-out;
-	transition: background-color 0.5s ease-out;
-}
-
-.button-nav4:hover, .button-nav4:focus {
-  background-color: rgb(20, 200, 154);
-  color: white;
-}
 
 
 
@@ -269,38 +135,6 @@ ul {
 }
 
 
-/*text field*/
-
-
-input, textarea {
-	display: block;
-	background-color: #EDEBFF;
-	font-family: Aaargh;
-	font-size: 80%;
-	padding: 0.1em 0.5em;
-}
-
-input:focus, textarea:focus {
-	background-color: white;
-}
-
-/* 
-  TEXT ELEMENTS -------------------
-*/
-p a, ul a{
-	text-decoration: none;
-	color: #14C89A;
-}
-
-p a:hover, p a:focus, ul a:hover, ul a:focus {
-	text-decoration: underline;
-	text-decoration-color: #8D4595;
-}
 
 
 
-/* 
-  COMBINED ELEMENTS -------------------
-*/
-/*For Product Listing, codes are in flexbox.css*/
-/*For Website Grid Structure, codes are in grid.css

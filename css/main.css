@@ -1,17 +1,91 @@
 /*main.css*/
 
-/* added from style guide */
-h1 {
-	margin-top: 3em;
-	font-family: 'Chaplin', sans-serif;
-	font-size: 3rem;
-}
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+/*For Product Listing, codes are in flexbox.css*/
+/*For Website Grid Structure, codes are in grid.css
+
+
+
+/* 
+	Overall Typography items
+	padding: top, right, bottom, left;
+*/
+
 
 body {
 	font-family: 'dosislight';
 	line-height: 150%;
 	/*padding: 3em;*/
 }
+
+h1 {
+	font-family: 'RumRaisin', serif;
+	font-size: 3rem;
+}
+
+h2 {
+	font-family: 'Allan', sans-serif;
+	font-style: bold;
+	font-size: 1.5em;
+
+}
+
+h3 {
+	font-family: 'Allan', sans-serif;
+	font-style: bold;
+	font-size: 1.5em;
+
+}
+
+figure {
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+
+
+/*text field*/
+
+
+input, textarea {
+	display: block;
+	background-color: #EDEBFF;
+	font-family: Aaargh;
+	font-size: 80%;
+	padding: 0.1em 0.5em;
+}
+
+input:focus, textarea:focus {
+	background-color: white;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+p a, ul a{
+	text-decoration: none;
+	color: #14C89A;
+}
+
+p a:hover, p a:focus, ul a:hover, ul a:focus {
+	text-decoration: underline;
+	text-decoration-color: #8D4595;
+}
+
+
+
+
+
+/* 
+
+MAIN NAVIGATION MENU and BODY CONTENT 
+
+*/
 
 .contentBody{
 	padding-left: 3rem;
@@ -47,6 +121,53 @@ body {
 	-webkit-transition: background-color 0.5s ease-out;
   	transition: background-color 0.5s ease-out;
 }
+
+
+/* 
+
+SIDEBAR NAVIGATION
+
+*/
+
+#sidebar {
+	float: left;
+	padding: 0;
+	position: relative;
+
+	top: 3em;
+	left: 0;
+	bottom: 0;
+
+	height: 100%;
+
+}
+
+.sidebar-item {
+	padding: 0.75em 0.25em;
+	text-decoration: none;
+	border-bottom: 1px solid black;
+}
+
+.sidebar-items a {
+	padding: 0 1em;
+	text-decoration: none;
+	font-size: 1.2rem;
+	padding: 0.25em 0.5em;
+	display: block;
+}
+
+.sidebar-item:hover, .sidebar-item:focus {
+	background-color: rgb(220, 220, 220);
+}
+
+
+
+/*
+
+ FOOTER 
+
+*/
+
 #footer {
 	position: relative;
 	float: bottom;
@@ -54,29 +175,35 @@ body {
 	/*text-align: center;*/
 	padding-top: .5em;
 	width: 100%;
-	margin-top: 20rem;
 }
+
 #footer a {
 	text-decoration: none;
 	height: 10em;
 }
+
 #footer .logo {
 	padding-top: 2em;
 }
+
 .icons {
 	padding-top: 1em;
 }
+
 .icon {
 	width:2em;
 	height: 2em;
 	margin:0 .2em 0;
 }
+
 #footer ul {
 	margin-top: 0;
 	padding-left: 0;
 }
+
 #footer .grid-col-1of4 {
 	text-align: center;
+	margin: 3rem 0 2rem;
 	height: 4em;
 	border-left: .1em solid rgba(0,0,0,.06);
 	border-right: .1em solid rgba(0,0,0,.06);
@@ -86,7 +213,13 @@ body {
 	background-color: rgb(134, 0, 149);
 }
 
-/* for adjusting the section in gift shop */
+
+
+/* 
+
+for adjusting the section in gift shop 
+
+*/
 
 .giftShopGallery{
 	margin-top: 3rem;
