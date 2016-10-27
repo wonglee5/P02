@@ -32,7 +32,9 @@ grids.css
 .grid-col-1of3 {
 	width: 33.333%;
 }
-
+.grid-col-1of4 {
+	width:25%;
+}
 .grid-col-2of3 {
 	width: 66.666%;
 }
@@ -46,6 +48,7 @@ grids.css
 	display: block;
 	clear: both;
 }
+
 
 /* making that navigation boxes are same length */
 .grid-col-1of6 > .nav-main-item {
