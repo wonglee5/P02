@@ -41,18 +41,18 @@ body {
 }
 
 h1 {
-	font-family: 'Chaplin', sans-serif;
+	font-family: 'Rancho', serif;
 	font-size: 3rem;
 }
 
 h2 {
-	font-family: 'Laila', sans-serif;
+	font-family: 'Cairo', sans-serif;
 	font-style: bold;
 
 }
 
 h3 {
-	font-family: 'Laila', sans-serif;
+	font-family: 'Cairo', sans-serif;
 	font-style: bold;
 
 }
@@ -167,8 +167,8 @@ ul {
 	display: inline-block;
 	color: white;
 	background-color: rgb(0, 0, 0);
-	font-family: Qarmic;
-	font-size: 1rem;
+	font-family: Rancho;
+	font-size: 1.5rem;
 	padding: 0.9rem 0.5rem;
 	text-decoration: none;
 	-webkit-transition: background-color 0.5s ease-out;

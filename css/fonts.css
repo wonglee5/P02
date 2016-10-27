@@ -41,6 +41,17 @@
 
 }
 
+@font-face {
+	font-family: 'Aaargh';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Aaargh-webfont.eot');
+	src: url('../fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Aaargh-webfont.woff2') format('woff2'),
+		url('../fonts/Aaargh-webfont.woff') format('woff'),
+		url('../fonts/Aaargh-webfont.ttf') format('truetype'); 
+
+}
 
 @font-face {
     font-family: 'dosislight';
@@ -59,10 +70,10 @@
 }
 
 @font-face {
-	font-family: 'Laila';
-	font-weight: medium;
-	font-style: medium;
-	src: url('../fonts/Laila/Laila-Medium.ttf');
+	font-family: 'Rancho';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Rancho/Rancho-Regular.ttf');
 }
 
 
