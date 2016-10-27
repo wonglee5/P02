@@ -10,16 +10,16 @@ h1 {
 body {
 	font-family: 'dosislight';
 	line-height: 150%;
-	padding: 3em;
+	/*padding: 3em;*/
 }
 
 .nav-main {
-	position: fixed;
+	/*position: fixed;*/
 }
 .nav-main-item {
 	display: inline-block;
 	color: white;
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
 	font-family: Qarmic;
 	font-size: 1rem;
 	padding: 0.9rem 0.5rem;
@@ -57,4 +57,51 @@ body {
 	margin-top: -3rem;
 	margin-bottom: -0.5rem;
 	margin-right: 1rem;
+}
+
+
+/* Nav Buttons */
+.navMainLogo{
+	color: rgb(0,0,0);
+	/*background-image: url("../img/logo.png");*/
+	display: inline-block;
+	font-family: Qarmic;
+	background-color: rgb(220, 220,220 );
+	font-size: 1rem;
+	padding: 1.25rem 0rem;
+	margin: auto;
+	text-align: center;
+	width: 15rem;
+	height: auto;
+	text-decoration: none;
+}
+
+.navMainItem {
+	display: inline-block;
+	color: black;
+	background-color: rgb(250,250,250);
+	font-size: 1rem;
+	font-family: Qarmic;
+	float: right;
+	padding: 1.25rem 1.5rem;
+	margin: auto -0.2rem;
+	text-decoration: none;
+	text-align: center;
+	transition: background-color 0.15s ease-out;
+}
+
+
+.navMainItem:active, .navMainItem:hover, .navMainItem:focus {
+	color: white;
+	background-color: rgb(20, 200, 154);
+}
+
+.navMainLogo:active, .navMainLogo:hover, .navMainLogo:focus {
+	color: white;
+	background-color: rgb(20, 200, 154);
+}
+
+.navMain{
+	/*position: fixed;*/
+	background-color: rgb(250,250,250);
 }

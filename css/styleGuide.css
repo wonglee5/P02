@@ -37,7 +37,7 @@ pre {
 body {
 	font-family: 'dosislight';
 	line-height: 150%;
-	padding: 3em;
+	/*padding: 3em;*/
 }
 
 h1 {
@@ -131,30 +131,9 @@ ul {
 	background-color: rgb(220, 220, 220);
 }
 
-/*
-@media (min-height: 30em){
-	.sidebar-item {
-		padding: 1em 1.25em;
-	}
-
-	.sidebar-items {
-		font-size: 1.5rem;
-	}
-} 
-*/
-
-/* 
-  Text Section -------------------
-*/
-
-
-
-/* 
-  INTERACTIVE ELEMENTS -------------------
-*/
 
 .nav-main {
-	position: fixed;
+	/*position: fixed;*/
 	text-align: center;
 	top: 0;
 	right: 0;
@@ -178,42 +157,6 @@ ul {
 .nav-main-item:hover, .nav-main-item:focus {
 	background-color: rgb(20, 200, 154);
 }
-
-/* original old code
-.nav-main-item {
-	display: inline-block;
-	color: white;
-	background-color: rgb(20, 200, 154);
-	font-family: Qarmic;
-	font-size: 1rem;
-	padding: 0.9rem 0.5rem;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s ease-out;
-	transition: background-color 0.5s ease-out;
-}
-
-.nav-main-item:hover, .nav-main-item:focus {
-	background-color: gray;
-}
- */
-
-/* for new colour combination suggestion 
-.nav-main-item1 {
-	display: inline-block;
-	color: white;
-	background-color: rgb(0, 0, 0);
-	font-family: dosismedium;
-	font-size: 1rem;
-	padding: 0.9rem 0.5rem;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s ease-out;
-	transition: background-color 0.5s ease-out;
-}
-.nav-main-item1:hover, .nav-main-item1:focus {
-	background-color: rgb(200, 63, 20);
-}
-
-*/
 
 .nav-logo-test {
 	display: inline-block;
