@@ -22,7 +22,7 @@ grids.css
 */
 [class^='grid-col-'] {
 	float: left;
-	padding:0;
+	padding: 0;
 }
 
 .grid-col-1of6 {
@@ -66,11 +66,6 @@ grids.css
 /* making that navigation boxes are same length */
 .grid-col-1of6 > .nav-main-item {
 	width: 100%;
-}
-
-
-body {
-	/*padding-top: 10rem;*/
 }
 
 

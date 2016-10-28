@@ -39,10 +39,10 @@ h3 {
 	font-size: 1.5em;
 
 }
-
+/*
 figure {
 	font-style: italic;
-}
+} */
 
 ul {
 	list-style: none;
@@ -79,8 +79,6 @@ p a:hover, p a:focus, ul a:hover, ul a:focus {
 
 
 
-
-
 /* 
 
 MAIN NAVIGATION MENU and BODY CONTENT 
@@ -95,6 +93,7 @@ MAIN NAVIGATION MENU and BODY CONTENT
 .nav-main {
 	/*position: fixed;*/
 }
+
 .nav-main-item {
 	display: inline-block;
 	color: white;
@@ -120,6 +119,26 @@ MAIN NAVIGATION MENU and BODY CONTENT
 	text-decoration: none;
 	-webkit-transition: background-color 0.5s ease-out;
   	transition: background-color 0.5s ease-out;
+}
+
+
+/* company news section on index page */
+
+#companynews {
+	position: relative;
+	float: left;
+	padding: 0;
+	height: 100%;
+}
+
+#companynews p {
+	text-align: left;
+	padding: 1.5em 5.2em;
+	margin: 0;
+}
+
+#companynews .grid-col-1of3 {
+	text-align: center;
 }
 
 
@@ -203,7 +222,7 @@ SIDEBAR NAVIGATION
 
 #footer .grid-col-1of4 {
 	text-align: center;
-	margin: 3rem 0 2rem;
+	margin: 5rem 0 4rem;
 	height: 4em;
 	border-left: .1em solid rgba(0,0,0,.06);
 	border-right: .1em solid rgba(0,0,0,.06);
@@ -233,6 +252,7 @@ for adjusting the section in gift shop
 
 
 /* Nav Buttons */
+
 .navMainLogo{
 	color: rgb(0,0,0);
 	/*background-image: url("../img/logo.png");*/
@@ -274,8 +294,14 @@ for adjusting the section in gift shop
 }
 
 .navMain{
-	/*position: fixed;*/
+	position: fixed;
 	background-color: rgb(250,250,250);
+
+	top: 0;
+	right: 0;
+	left: 0;
+
+	z-index: 10; /* for elements that have position value set */
 }
 
 <<<<<<< Updated upstream
