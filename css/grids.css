@@ -45,6 +45,7 @@ grids.css
 
 .grid-col-6of6 {
 	width: 100%;
+	padding-bottom: 2rem;
 }
 
 .grid-col-1of4 {
@@ -53,6 +54,19 @@ grids.css
 
 .grid-col-3of4 {
 	width: 60%;
+}
+
+.grid-col-4of5 {
+	width: 80%;
+	padding-left: 2rem;
+}
+
+.grid-col-indexImg{
+	width: 100%;
+	padding-left: -5rem;
+	padding-right: -5rem;
+	margin-left: -5rem;
+	margin-right: -5rem;
 }
 
 
