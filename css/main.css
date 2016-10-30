@@ -18,6 +18,9 @@
 body {
 	font-family: 'dosislight';
 	line-height: 150%;
+
+	/*prevent horizontal scroll*/
+	overflow-x: hidden;
 	/*padding: 3em;*/
 }
 
@@ -29,24 +32,28 @@ h1 {
 h2 {
 	font-family: 'Allan', sans-serif;
 	font-style: bold;
-	font-size: 1.5em;
-
+	font-size: 2.5em;
 }
 
 h3 {
 	font-family: 'Allan', sans-serif;
 	font-style: bold;
 	font-size: 1.5em;
-
 }
-/*
-figure {
-	font-style: italic;
-} */
+
 
 ul {
 	list-style: none;
 }
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+} 
 
 
 /*text field*/
@@ -88,10 +95,26 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 .contentBody{
 	padding-left: 3rem;
 	padding-right: 3rem;
-	padding-top: 1rem;
+	padding-top: 1.5rem;
 }
 
+.full-width {
+	width: 100vw;
+	position: relative;
+	left: 30%;
+	right: 30%;
+	margin-left: -30vw;
+	margin-right: -30vw;
+	margin-bottom: -1vw; /* for bottom white space */
+}
 
+@media (min-width: 40em) {
+	.full-width {
+		width: 100vw;
+	}
+}
+
+/*
 #fullbleed {
 	position: fixed;
 	top: -50%;
@@ -99,11 +122,12 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 
 	z-index: 0;
 
-	/* aspect ratio */
+	aspect ratio 
 	min-width: 200%;
 	max-width: 200%;
-}
+} */
 
+/*
 #fullbleed img {
 	position: absolute;
 	top: 0;
@@ -114,7 +138,7 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 	margin: auto;
 	min-width: 50%;
 	min-height: 50%;
-}
+} */
 
 .nav-main {
 	/*position: fixed;*/

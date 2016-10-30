@@ -25,41 +25,14 @@ grids.css
 	padding: 0;
 }
 
-.grid-col-1of6 {
-	width: 16.666%;
-}
 
-.grid-col-5of6 {
-	width: 83.333s%;
-}
 
-.grid-col-1of3 {
-	width: 33.333%;
-}
-.grid-col-1of4 {
-	width:25%;
-}
-.grid-col-2of3 {
-	width: 66.666%;
-}
-
-.grid-col-6of6 {
+.grid-col-1of6, .grid-col-5of6, .grid-col-6of6, .grid-col-1of3, .grid-col-2of3, .grid-col-1of4, .grid-col-3of4, .grid-col-4of5 {
 	width: 100%;
 	padding-bottom: 2rem;
 }
 
-.grid-col-1of4 {
-	width: 25%;
-}
 
-.grid-col-3of4 {
-	width: 60%;
-}
-
-.grid-col-4of5 {
-	width: 80%;
-	padding-left: 2rem;
-}
 
 /*
 .grid-col-indexImg{
@@ -78,24 +51,54 @@ grids.css
 }
 
 
-/* making that navigation boxes are same length */
+/* making that navigation boxes are same length 
 .grid-col-1of6 > .nav-main-item {
 	width: 100%;
 }
-
-
-
-/* 
-	
-added for reservation
-
 */
 
-.grid-col-1of2 {
-	width:50%;
+/* Extra space at top so other elements are not overlapped with navigation bar*/
+body {
+	padding-top: 3.5rem;
 }
-@media  (max-width: 60rem) {
-	.grid-col-1of2 {
-		width:100%;
-	}
+
+/*for screen resizing*/
+@media  (min-width: 30rem) {
+
 }	
+
+@media (min-width: 60rem) {
+	.grid-col-1of2 {
+	width:50%;
+	}
+
+	.grid-col-1of4 {
+		width: 25%;
+	}
+
+	.grid-col-3of4 {
+		width: 60%;
+	}
+
+	.grid-col-4of5 {
+		width: 80%;
+		padding-left: 2rem;
+	}
+
+	.grid-col-1of6 {
+		width: 16.666%;
+	}
+
+	.grid-col-5of6 {
+		width: 83.333s%;
+	}
+
+	.grid-col-1of3 {
+		width: 33.333%;
+	}
+
+	.grid-col-2of3 {
+		width: 66.666%;
+	}
+
+}
