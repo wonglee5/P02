@@ -33,6 +33,7 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
 
   <body>
 
+    <!-- TOP NAVIGATION BAR HERE -->
     <nav class="navMain box grid-row">
       <div>
         <a href="index.html" class="navMainLogo boxItem"><image src="img/icons/catFootprintForButtons_white.png" width="15%" height="15%" class="logo">Pet Gentle Cafe</a>
@@ -71,10 +72,10 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
     <div class="grid-row">
       <section id="slideshow" class="grid-col-indexImg">
         <figure> 
-          <img src="img/dog-cafe-mainpage.jpg" width="100%" height="100%" alt="A dog inside the cafe">
+          <img src="img/dog-cafe-mainpage.jpg"  id="fullbleed" alt="A dog inside the cafe">
         </figure>
         <figure> 
-          <img src="img/catandman-bowtie.jpg" width="100%" height="100%" alt="A dog inside the cafe">
+          <img src="img/catandman-bowtie.jpg"  id="fullbleed" alt="A dog inside the cafe">
         </figure>
       </section>
 
@@ -103,54 +104,48 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
     </div>
 
 
-      <!-- FOOTER STARTS HERE -->
+          <!-- FOOTER STARTS HERE -->
+    <section id="footer" >
+      <div class="grid-row">
 
-      <section id="footer" >
-        <div class="grid-row">
-          <div class="grid-col-1of4">
-            <!-- COMPANY LOGO -->
-            <p><image src="img/icons/catFootprintForButtons.png" width="15%" height="15%" class="logo">Pet Gentle Cafe
-              </p>
+        <!-- COMPANY LOGO -->
+        <div class="grid-col-1of4">
+          <p><image src="img/icons/catFootprintForButtons.png" width="15%" height="15%" class="logo">Pet Gentle Cafe
+            </p>
+        </div>
 
-          </div>
+        <!-- COMPANY CONTACT & INFO -->
+        <div class="grid-col-1of4">
+          <ul>
+            <li> 778-123-4567 </li>
+            <li> 8888 University Drive </li>
+            <li> Surry, BC, Canada </li>
+          </ul>
+        </div>
 
-          <!-- COMPANY CONTACT & INFO -->
-          <div class="grid-col-1of4">
-            <ul>
-              <li> 778-123-4567 </li>
-              <li> 8888 University Drive </li>
-              <li> Surry, BC, Canada </li>
-            </ul>
-          </div>
+        <div class="grid-col-1of4">
+          <ul>
+            <li> Open:</li>
+            <li> Wednesday - Sunday </li>
+            <li> 8:00am - 8:00pm </li>
+          </ul>
+        </div>
 
-          <div class="grid-col-1of4">
-            <ul>
-              <li> Open:</li>
-              <li> Wednesday - Sunday </li>
-              <li> 8:00am - 8:00pm </li>
-            </ul>
-          </div>
+        <!-- SOCIAL MEDIA -->
+        <div class="grid-col-1of4">
+          <div class= "icons">
 
-          <!-- SOCIAL MEDIA -->
-          <div class="grid-col-1of4">
-            <div class= "icons">
-            <a href="http://www.facebook.com">
+          <a href="http://www.facebook.com">c<img class="icon" src="img/icons/facebook.svg" alt="Facebook icon"></a>
 
-              <img class="icon" src="img/icons/facebook.svg" alt="Facebook icon">
-            </a>
-            <a href="http://www.twitter.com">
+          <a href="http://www.twitter.com"><img class="icon" src="img/icons/twitter.svg" alt="Twitter icon"></a>
 
-              <img class="icon" src="img/icons/twitter.svg" alt="Twitter icon">
-            </a>
-            <a href="http://www.Instagram.com">
-
-              <img class="icon" src="img/icons/instagram.svg" alt="Instagram icon">
-            </a>
-          </div>
+          <a href="http://www.Instagram.com"><img class="icon" src="img/icons/instagram.svg" alt="Instagram icon"></a>
 
         </div>
-      </section>
-      <!-- FOOTER ENDS HERE -->
+
+      </div>
+    </section>
+    <!-- FOOTER ENDS HERE -->
     
 
   </body>

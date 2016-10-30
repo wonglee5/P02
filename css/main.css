@@ -55,7 +55,7 @@ ul {
 input, textarea {
 	display: block;
 	background-color: #EDEBFF;
-	font-family: Aaargh;
+	font-family: dosislight;
 	font-size: 80%;
 	padding: 0.1em 0.5em;
 }
@@ -81,7 +81,7 @@ p a:hover, p a:focus, ul a:hover, ul a:focus {
 
 /* 
 
-MAIN NAVIGATION MENU and BODY CONTENT 
+MAIN NAVIGATION MENU, IMAGE, BODY CONTENT 
 
 */
 
@@ -89,6 +89,31 @@ MAIN NAVIGATION MENU and BODY CONTENT
 	padding-left: 3rem;
 	padding-right: 3rem;
 	padding-top: 1rem;
+}
+
+
+#fullbleed {
+	position: fixed;
+	top: -50%;
+	left: -50%;
+
+	z-index: 0;
+
+	/* aspect ratio */
+	min-width: 200%;
+	max-width: 200%;
+}
+
+#fullbleed img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	margin: auto;
+	min-width: 50%;
+	min-height: 50%;
 }
 
 .nav-main {
