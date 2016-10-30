@@ -177,7 +177,7 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 #companynews {
 	position: relative;
 	float: left;
-	padding: 0;
+	padding: 2em 0;
 	height: 100%;
 }
 
@@ -303,6 +303,17 @@ for adjusting the section in gift shop
 
 /* Nav Buttons */
 
+.navMain{
+	position: fixed;
+	background-color: rgb(250,250,250);
+
+	top: 0;
+	right: 0;
+	left: 0;
+
+	z-index: 10; /* for elements that have position value set */
+}
+
 .navMainLogo{
 	color: rgb(0,0,0);
 	/*background-image: url("../img/logo.png");*/
@@ -320,7 +331,7 @@ for adjusting the section in gift shop
 
 .navMainItem {
 	display: inline-block;
-	color: black;
+	color: black; /*what is this for?*/
 	background-color: rgb(250,250,250);
 	font-size: 1.5rem;
 	font-family: Allan;
@@ -343,16 +354,6 @@ for adjusting the section in gift shop
 	background-color: rgb(20, 200, 154);
 }
 
-.navMain{
-	position: fixed;
-	background-color: rgb(250,250,250);
-
-	top: 0;
-	right: 0;
-	left: 0;
-
-	z-index: 10; /* for elements that have position value set */
-}
 
 <<<<<<< Updated upstream
 
@@ -367,9 +368,10 @@ a.logo {
 
 
 /* food menu list stuff*/
-.foodItems{
+#foodItems{
 
 }
+
 
 .menuItenPara{
 	padding-left: 10rem;

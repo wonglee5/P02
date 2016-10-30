@@ -63,21 +63,23 @@ body {
 }
 
 /*for screen resizing*/
-@media  (min-width: 30rem) {
+@media  (max-width: 30rem) {
 
 }	
 
 @media (min-width: 60rem) {
 	.grid-col-1of2 {
-	width:50%;
+		width:50%;
 	}
 
 	.grid-col-1of4 {
 		width: 25%;
+		padding-top: 1.5em;
 	}
 
 	.grid-col-3of4 {
 		width: 60%;
+		padding-left: 3em;
 	}
 
 	.grid-col-4of5 {
@@ -95,10 +97,15 @@ body {
 
 	.grid-col-1of3 {
 		width: 33.333%;
+		padding-top: 1.5em;
 	}
 
 	.grid-col-2of3 {
 		width: 66.666%;
+	}
+
+	.grid-col-6of6 {
+		width: 100%;
 	}
 
 }
