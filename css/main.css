@@ -21,7 +21,6 @@ body {
 
 	/*prevent horizontal scroll*/
 	overflow-x: hidden;
-	/*padding: 3em;*/
 }
 
 h1 {
@@ -164,7 +163,7 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 	padding: 0.5em 1em;
 	color: white;
 	font-family: Qarmic;
-	background-color: rgb(141, 69, 149);
+	background-color: rgb(20, 200, 154);
 	border-radius: 0.3em;
 	text-decoration: none;
 	-webkit-transition: background-color 0.5s ease-out;
@@ -244,6 +243,7 @@ SIDEBAR NAVIGATION
 	/*text-align: center;*/
 	padding-top: .5em;
 	width: 100%;
+	z-index: -100;
 }
 
 #footer a {
@@ -279,19 +279,35 @@ SIDEBAR NAVIGATION
 }
 
 .button-submit-reset:hover, .button-submit-reset:focus {
-	background-color: rgb(134, 0, 149);
+	background-color: rgb(120, 120, 120);
 }
 
 
 
 /* 
 
-for adjusting the section in gift shop 
+for adjusting the section in item gallery
 
 */
 
 .giftShopGallery{
+	margin-top: 2rem;
+	margin-right: 5rem;
+	margin-left: 5rem;
+	z-index: 100;
+}
+.itemParagraph{
 	margin-top: 3rem;
+}
+
+.itemHover{
+	display: block;
+	-webkit-transition: opacity 0.4s ease-out;
+  	transition: opacity 0.4s ease-out;
+}
+
+.itemHover:active, .itemHover:hover, .itemHover:focus{
+	opacity: 0.5;
 }
 
 .logo{
@@ -355,15 +371,12 @@ for adjusting the section in gift shop
 }
 
 
-<<<<<<< Updated upstream
 
 /* item contents */
 .itemContent{
 	/*padding-left: -1rem;*/
-=======
 a.logo {
 	font-family: RumRaisin;
->>>>>>> Stashed changes
 }
 
 
