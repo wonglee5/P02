@@ -84,7 +84,6 @@ p a:hover, p a:focus, ul a:hover, ul a:focus {
 }
 
 
-
 /* 
 
 MAIN NAVIGATION MENU, IMAGE, BODY CONTENT 
@@ -112,6 +111,20 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 		width: 100vw;
 	}
 }
+
+
+/*about us page text elements STARTS*/
+
+#companyinfo p {
+	padding: 1em 0;
+	margin: 0 5em 0 0;
+}
+
+#companyinfo .grid-col-1of2 {
+	padding: 3em 0em 0 6em;
+}
+
+/*about us page text elements ENDS*/
 
 /*
 #fullbleed {
