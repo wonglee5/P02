@@ -103,6 +103,7 @@ body {
 	.grid-col-3of4 {
 		width: 60%;
 		padding-left: 3em;
+		/*padding-right: -1rem;*/
 		padding-top: 0;
 		margin-right: 2rem;
 	}
