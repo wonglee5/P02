@@ -96,12 +96,13 @@ body {
 
 	.grid-col-1of4 {
 		width: 25%;
-		padding-top: 1.5em;
+		padding-top: 0em;
 	}
 
 	.grid-col-3of4 {
 		width: 60%;
 		padding-left: 3em;
+		padding-top: 0;
 	}
 
 	.grid-col-4of5 {

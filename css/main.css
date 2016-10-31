@@ -298,6 +298,7 @@ for adjusting the section in item gallery
 }
 .itemParagraph{
 	margin-top: 3rem;
+	display: inline-block;
 }
 
 .itemHover{
