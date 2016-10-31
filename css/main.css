@@ -304,12 +304,14 @@ for adjusting the section in item gallery
 */
 
 .giftShopGallery{
+	display: inline-block;
 	margin-top: 2rem;
 	margin-right: 5rem;
 	margin-left: 5rem;
 	z-index: 100;
 }
 .galleryLine{
+	display: inline-block;
 	padding-bottom: -5rem;
 }
 .itemParagraph{
