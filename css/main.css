@@ -296,6 +296,9 @@ for adjusting the section in item gallery
 	margin-left: 5rem;
 	z-index: 100;
 }
+.galleryLine{
+	padding-bottom: -5rem;
+}
 .itemParagraph{
 	margin-top: 3rem;
 	display: inline-block;
@@ -388,7 +391,7 @@ a.logo {
 
 
 .menuItenPara{
-	padding-left: 10rem;
+	padding-left: 100rem;
 }
 
 .foodItemImg{

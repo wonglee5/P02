@@ -97,6 +97,7 @@ body {
 	.grid-col-1of4 {
 		width: 25%;
 		padding-top: 0em;
+		margin-bottom: -2.35rem;
 	}
 
 	.grid-col-3of4 {
