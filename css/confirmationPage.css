@@ -1,3 +1,14 @@
+#mainBody {
+	text-align: center;
+}
+.conContent {
+
+	width : 80%;
+	display: inline-block;
+}
 p {
 	margin-top: 3em;
+}
+.placeHolder {
+	width: 100%;
 }
