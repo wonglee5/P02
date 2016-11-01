@@ -1,24 +1,15 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<title> Reservations </title>
-
-
-		<link rel="stylesheet" href="css/main.css">
-	    <link rel="stylesheet" href="css/fonts.css">
-	    <link rel="stylesheet" href="css/grids.css">
-	    <link rel="stylesheet" href="css/styleGuide.css">
-
-	   	<!-- <link rel="stylesheet" href="css/flexbox.css"> -->
-
-	    <link rel="stylesheet" href="css/reservation.css">
-
-	</head>
-
-	<body>
-
-	    <!-- TOP NAVIGATION BAR HERE -->
-	    <nav class="navMain box grid-row">
+<head>
+	<title>Thank You</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/grids.css">
+	<link rel="stylesheet" href="css/styleGuide.css">
+	<link rel="stylesheet" href="css/reservation.css">
+</head>
+<body>
+	 <nav class="navMain box grid-row">
 	      <div>
 	        <a href="index.html" class="navMainLogo boxItem"><image src="img/icons/catFootprintForButtons_white.png" width="15%" height="15%" class="logo">Pet Gentle Cafe</a>
 	        <a href="aboutUs.html" class="navMainItem boxItem">About Us</a>
@@ -29,21 +20,21 @@
 	    </nav>
 
 
-		<h2> Pet Sign up </h2>
-		
-		<a class="button-submit-reset" href="reservation.html">back</a>
+		<h2> Feedback </h2>
+		<div class="grid-row">
+
+			<!-- LINK TO MENU PAGE -->
+			
+
+		</div>
+	</div>
+
+	<section id="form">
 		<div class="grid-row">
 			<div class="grid-col-1of2">
-				<p> Our Daycare center is avaiable for both cats and dogs, where they can enjoy a playful day and accommodations are provided when needed. Our daycare is able to support up to 50 pets at a time but are continuing to expand. Look though our list of other satisfied customers on our dog page and view more things</p>
-			</div>
-		</div>
-
-
-		<section id="form">
-			<div class="grid-row">
-				<div class="grid-col-1of2">
-					<form id="reservation" method="post" action="#">
-						<div class="col">
+				<form id="reservation" method="post" action="#">
+					
+			      <div class="col">
 			      	<label for=""><strong>Date</strong></label>
 			      	<input type="date" name="date" min="2016-10-30" max="2017-01-01">
 			      </div>
@@ -55,45 +46,35 @@
 		          <!-- last name field -->
 		          <div class="col">
 		          	<label for=""><strong>Phone Number</strong></label>
-		          	<input type="text" id="" placeholder="xxx-xxx-xxxx">
+		          	<input type="number" id="" placeholder="xxx-xxx-xxxx">
 		          </div>
 		          <!--phone number field -->
 		          <div class="col">
 			          <label for="reserve-form-phone"><strong>Email</strong></label>
 			          <input type="text" id="" placeholder="@gmail.com">
 			      </div>
-			      	<div class="col">
-			          <label for="reserve-form-email"><strong>Pet Name</strong></label>
-			          <input type="text" id="" placeholder="Pet Name">
-			      </div>
-			          <!-- email field -->
-			          <div class="col">
-			          <label for="reserve-form-email"><strong>Number Of Days</strong></label>
+		          <!-- email field -->
+		          <div class="col">
+			          <label for="reserve-form-email"><strong>Number Of people</strong></label>
 			          <input type="number" id="" placeholder="1">
 			      </div>
-
 		          <!-- comments -->
 		          <div class="col">
 			          <label for=""><strong>Additional Information</strong></label>
 			          <textarea id="" placeholder=""></textarea>
-				      </div>
-				      <a class="button-submit-reset" href="confirmationPage.html">Confirm</a> 
+			      </div>
+			      <a class="button-submit-reset" href="confirmationPage.html">Confirm</a> 
 			      <input class="button-submit-reset" type="reset">
-			        </form>
-				</div>
-
-				<div class="grid-col-1of2">
-					<img class="img-padding" src="img/dog_gallery/pomBowtie.jpg" alt="Img of pet">
-					<img class="img-padding" src="img/cat_gallery/pet-of-the-week.jpg" alt="Img of pet">
-				</div>
-
+		        </form>
 			</div>
+		</div>
 
+	</section>
 
-		</section>
+		
 
+		  <!-- FOOTER STARTS HERE -->
 
-		<!-- FOOTER STARTS HERE -->
 		<section id="footer" >
 			<div class="grid-row">
 
@@ -135,7 +116,6 @@
 			</div>
 		</section>
 		<!-- FOOTER ENDS HERE -->
-	
 
-	</body>
+</body>
 </html>

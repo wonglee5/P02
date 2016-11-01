@@ -6,6 +6,9 @@
 body {
 	/*padding: 0;*/
 }
+h2 {
+	padding-left: 2rem;
+}
 #reservation, #daycare{
 	/*margin: 2rem 2% 2rem;*/
 	min-height: 45rem;
@@ -27,7 +30,7 @@ body {
 
 .buttons {
 	display: block;
-	padding: 1em;
+	/*padding: 1em;*/
 	-webkit-transition: opacity 0.4s ease-out;
   	transition: opacity 0.4s ease-out;
 }
@@ -78,14 +81,17 @@ figcaption {
 }
 
 label {
-	font-size: 2rem;
+	font-family: 'Allan', sans-serif;
+	font-style: bold;
+	font-size: 1.5em;
 }
 input {
 	/*display: block;*/
 	-webkit-border-radius: 5px;
 	background-color: #EDEBFF;
-	font-family: Aaargh;
+	font-family: 'Aaargh';
 	font-size: 100%;
+	/*width:;*/
 	padding: 0.2rem 2rem;
 	padding-right: 5rem;
 
