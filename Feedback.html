@@ -19,6 +19,7 @@
 	      </div>
 	    </nav>
 
+	<section class="contentBody">
 
 		<h2> Feedback </h2>
 		<div class="grid-row">
@@ -29,43 +30,51 @@
 		</div>
 	</div>
 
-	<section id="form">
 		<div class="grid-row">
 			<div class="grid-col-1of2">
-				<form id="reservation" method="post" action="#">
+				<form id="feedback" method="post" action="#">
 					
-			      <div class="col">
-			      	<label for=""><strong>Date</strong></label>
-			      	<input type="date" name="date" min="2016-10-30" max="2017-01-01">
-			      </div>
 		          <!-- first name field -->
 		          <div class="col">
-		          	<label for=""><strong>Name</strong></label>
-		          	<input type="text" id="" placeholder="Name">
+			          <label for="reserve-form-email"><strong>Which reservation did you sign up for?</strong></label>
+			          <select id="" name="type">
+						<option> - Choose one of the following - </option>
+					    <option value="pet1">Cafe Reservation</option>
+					    <option value="pet2">Daycare</option>
+				  	</select>
+			      </div>
+		          <div class="col">
+		          	<label for="">What do you think of our website?</label>
+		          	<input type="text" name="experience" placeholder="">
 		          </div>
+		          <div class="col">
+			          <label for="reserve-form-email">Was it easy to navigate our site?</label>
+			          <input type="text" id="" placeholder="">
+			      </div>
 		          <!-- last name field -->
 		          <div class="col">
-		          	<label for=""><strong>Phone Number</strong></label>
-		          	<input type="number" id="" placeholder="xxx-xxx-xxxx">
+		          	<label for="">Did our site take a while to load?</label>
+		          	<input type="number" id="" placeholder="">
 		          </div>
 		          <!--phone number field -->
 		          <div class="col">
-			          <label for="reserve-form-phone"><strong>Email</strong></label>
-			          <input type="text" id="" placeholder="@gmail.com">
+			          <label for="reserve-form-phone">Did you find and bugs with our site?</label>
+			          <input type="text" id="" placeholder="">
 			      </div>
 		          <!-- email field -->
-		          <div class="col">
-			          <label for="reserve-form-email"><strong>Number Of people</strong></label>
-			          <input type="number" id="" placeholder="1">
-			      </div>
+		          
 		          <!-- comments -->
 		          <div class="col">
-			          <label for=""><strong>Additional Information</strong></label>
+			          <label for="">Additional Comments</label>
 			          <textarea id="" placeholder=""></textarea>
 			      </div>
-			      <a class="button-submit-reset" href="confirmationPage.html">Confirm</a> 
+			      <a class="button-submit-reset" href="index.html">Confirm</a> 
 			      <input class="button-submit-reset" type="reset">
 		        </form>
+			</div>
+			<div class="grid-col-1of2">
+				<img class="img-padding" src="img/catandman-bowtie.jpg" alt="Img of cafe food">
+				<img class="img-padding" src="img/dog_gallery/corgi-walk.jpg" alt="Img of cafe food">
 			</div>
 		</div>
 
