@@ -92,6 +92,7 @@ body {
 @media (min-width: 60rem) {
 	.grid-col-1of2 {
 		width:50%;
+		padding-left: 2rem;
 	}
 
 	.grid-col-1of4 {

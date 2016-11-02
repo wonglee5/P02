@@ -177,7 +177,7 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 	color: white;
 	font-family: Qarmic;
 	background-color: rgb(20, 200, 154);
-	border-radius: 0.3em;
+	/*border-radius: 0.3em;*/
 	text-decoration: none;
 	-webkit-transition: background-color 0.5s ease-out;
   	transition: background-color 0.5s ease-out;
@@ -354,7 +354,8 @@ for adjusting the section in item gallery
 	/*background-image: url("../img/logo.png");*/
 	display: inline-block;
 	font-family: Allan;
-	background-color: rgb(220, 220,220 );
+	/*background-color: rgb(220, 220,220 );*/
+	background-color: rgb(250,250,250);
 	font-size: 1.5rem;
 	padding: 1.25rem 0rem;
 	margin: auto;
@@ -384,10 +385,10 @@ for adjusting the section in item gallery
 	background-color: rgb(20, 200, 154);
 }
 
-.navMainLogo:active, .navMainLogo:hover, .navMainLogo:focus {
+/*.navMainLogo:active, .navMainLogo:hover, .navMainLogo:focus {
 	color: white;
 	background-color: rgb(20, 200, 154);
-}
+}*/
 
 
 
