@@ -3,23 +3,23 @@
 	/*margin-top: 2rem;*/
 	text-align: left;
 }
-body {
-	/*padding: 0;*/
-}
 h2 {
-	padding-left: 2rem;
+	/*padding-left: 2rem;*/
 }
-#reservation, #daycare{
-	/*margin: 2rem 2% 2rem;*/
-	min-height: 45rem;
-	/*height: 45em;*/
-	/*border: 1px solid rgba(0, 0, 0, 0.2);*/
-	/*background-color: rgba(0,0,0,0.05);*/
+.contentBody {
+	padding-left:5rem;
+	padding-right:6rem;
+}
+#form {
+	margin-left: 1rem;
+}
+.col {
+	margin-left: 0;
 }
 .img-padding {
 	width: 100%;
-	margin: 0 1rem 1rem;
-
+	/*margin: 0 1rem 1rem;*/
+	margin: -.2rem;
 }
 .button-submit-reset {
 	margin-top: 2rem;
@@ -59,7 +59,7 @@ h1 {
 	margin-top: 6rem;
 }
 .grid-col-1of2 p{
-	padding:0 2em 0;
+	padding-right: 2rem;
 	text-align: justify;
 }
 a {
@@ -79,21 +79,25 @@ figcaption {
 	color: white;
 	background-color: rgba(50,50,50,0.4);
 }
-
 label {
 	font-family: 'Allan', sans-serif;
 	font-style: bold;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 input {
+	height: 2rem;
+}
+input, textarea {
 	/*display: block;*/
 	-webkit-border-radius: 5px;
-	background-color: #EDEBFF;
+	background-color: rgba(120,120,120,.1);
 	font-family: 'Aaargh';
 	font-size: 100%;
 	/*width:;*/
-	padding: 0.2rem 2rem;
+	padding: 0.2rem 2.6rem;
 	padding-right: 5rem;
+	border: none;
+	border-radius: 0px;
 
 	
 
@@ -113,7 +117,6 @@ input[type=date] {
   /*background-color: lighten(#2f2f2f,40%);*/
   outline: none;
   /*border: 0;*/
-  border-radius: 3px;
   /*padding: 0 155px;*/
   /*color: #fff;*/
   
@@ -159,5 +162,5 @@ textarea {
 	min-width: 18rem;
 	font-family: Aaargh;
 	font-size: 100%;
-	-webkit-border-radius: 5px;
+	/*-webkit-border-radius: 5px;*/
 }
