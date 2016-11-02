@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-	font-family: 'RumRaisin', serif;
+	font-family: 'Allan', serif;
 	font-size: 3rem;
 }
 
@@ -35,7 +35,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Allan', sans-serif;
+	font-family: 'dosislight', sans-serif;
 	font-style: bold;
 	font-size: 1.5em;
 }
@@ -126,32 +126,8 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 
 /*about us page text elements ENDS*/
 
-/*
-#fullbleed {
-	position: fixed;
-	top: -50%;
-	left: -50%;
 
-	z-index: 0;
-
-	aspect ratio 
-	min-width: 200%;
-	max-width: 200%;
-} */
-
-/*
-#fullbleed img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-
-	margin: auto;
-	min-width: 50%;
-	min-height: 50%;
-} */
-
+/* main navigation bar at the TOP*/
 .nav-main {
 	/*position: fixed;*/
 }
@@ -204,11 +180,7 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 }
 
 
-/* 
-
-SIDEBAR NAVIGATION
-
-*/
+/* SIDEBAR NAVIGATION */
 
 #sidebar {
 	float: left;
@@ -265,11 +237,11 @@ SIDEBAR NAVIGATION
 }
 
 #footer .logo {
-	padding-top: 2em;
+	padding-top: 4.5em;
 }
 
 .icons {
-	padding-top: 1em;
+	padding-top: 1.5em;
 }
 
 .icon {
@@ -285,8 +257,10 @@ SIDEBAR NAVIGATION
 
 #footer .grid-col-1of4 {
 	text-align: center;
-	margin: 5rem 0 4rem;
-	height: 4em;
+	font-size: 0.85em;
+	margin: 3rem 0 2.5rem;
+
+	height: 5.5em;
 	border-left: .1em solid rgba(0,0,0,.06);
 	border-right: .1em solid rgba(0,0,0,.06);
 }
@@ -353,7 +327,7 @@ for adjusting the section in item gallery
 	color: rgb(0,0,0);
 	/*background-image: url("../img/logo.png");*/
 	display: inline-block;
-	font-family: Allan;
+	font-family: RumRaisin;
 	/*background-color: rgb(220, 220,220 );*/
 	background-color: rgb(250,250,250);
 	font-size: 1.5rem;
@@ -369,8 +343,8 @@ for adjusting the section in item gallery
 	display: inline-block;
 	color: black; /*what is this for?*/
 	background-color: rgb(250,250,250);
-	font-size: 1.5rem;
-	font-family: Allan;
+	font-size: 1.2rem;
+	font-family: dosislight;
 	float: right;
 	padding: 1.25rem 1.5rem;
 	margin: auto -0.2rem;
@@ -395,6 +369,8 @@ for adjusting the section in item gallery
 /* item contents */
 .itemContent{
 	/*padding-left: -1rem;*/
+}
+/* DONT NEED THIS??? */
 a.logo {
 	font-family: RumRaisin;
 }

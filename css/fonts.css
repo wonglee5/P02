@@ -65,6 +65,15 @@
 }
 
 @font-face {
+    font-family: 'dosisregular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/dosis-light-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-light-webfont.woff') format('woff'),
+         url('../fonts/Dosis-Regular.ttf');
+}
+
+@font-face {
     font-family: 'dosismedium';
     font-weight: normal;
     font-style: normal;
