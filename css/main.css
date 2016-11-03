@@ -314,6 +314,14 @@ figure.full-width{
 	margin-bottom: -10rem;
 } 
 
+h3.contactUs{
+	margin-bottom: 0rem;
+}
+h4.contactUs{
+	font-size: 0.95rem;
+	margin-bottom: -1rem;
+}
+
 
 /* SIDEBAR NAVIGATION */
 
