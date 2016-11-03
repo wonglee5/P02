@@ -518,6 +518,10 @@ for adjusting the section in item gallery
 	visibility: hidden;
 	display: none;
 }
+#navCollapse{
+	visibility: hidden;
+	display: none;
+}
 
 @media (max-width: 48em) {
 
