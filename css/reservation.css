@@ -1,27 +1,23 @@
 .col {
 	margin: 2rem 2rem 0;
-	/*margin-top: 2rem;*/
 	text-align: left;
+	margin-left: 0;
 }
 h2 {
-	/*padding-left: 2rem;*/
 }
 .contentBody {
 	padding-left:5rem;
 	padding-right:6rem;
 }
 .grid-col-1of2 {
+	padding-top: 1rem;
 	padding-left: 0;
 }
 #form {
 	margin-left: 1rem;
-}
-.col {
-	margin-left: 0;
-}
+}\
 .img-padding {
 	width: 100%;
-	/*margin: 0 1rem 1rem;*/
 	margin: -.2rem;
 }
 .button-submit-reset {
@@ -33,7 +29,6 @@ h2 {
 
 .buttons {
 	display: block;
-	/*padding: 1em;*/
 	-webkit-transition: opacity 0.4s ease-out;
   	transition: opacity 0.4s ease-out;
 }
@@ -55,7 +50,6 @@ h2 {
 	position: relative;
 	float: right;
 	margin-right: 2rem;
-	/*margin-left: 30em;*/
 
 }
 h1 {
@@ -91,13 +85,11 @@ input {
 	height: 2rem;
 }
 input, textarea, select {
-	/*display: block;*/
 	-webkit-border-radius: 5px;
 	background-color: rgba(120,120,120,.1);
 	font-family: 'Aaargh';
 	font-size: 100%;
 	width: 18rem;
-	/*padding: 0.2rem 2.6rem;*/
 	padding-right: 5rem;
 	border: none;
 	border-radius: 0;
@@ -111,7 +103,6 @@ textarea {
 	min-width: 18rem;
 	font-family: Aaargh;
 	font-size: 100%;
-	/*-webkit-border-radius: 5px;*/
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -125,9 +116,6 @@ select {
 	display: block;
 	width: 18rem;
 	height: 2rem;
-	/*-webkit-appearance: none;*/
-	/*outline: 1px inset rgba(120,120,120,.01); */
-	/*outline-offset:-1px;*/
 }
 select:not([multiple]) {
     -webkit-appearance: none;
@@ -138,59 +126,13 @@ select:not([multiple]) {
     padding: .5em;
     padding-right: 1.5em
 }
-/*input[type=radio] {*/
-	/*display:inline;*/
-/*}*/
-/* date format reference https://codepen.io/tgrant54/pen/LFblv*/
 
 input[type=date] {
   height: 35px;
   width: 18rem;
-  /*margin: 0 auto;*/
-  /*width: 5rem;*/
-  /*font-family: arial, sans-serif;*/
-  /*font-size: 18px;*/
   font-weight: bold;
   text-transform: uppercase;
-  /*background-color: lighten(#2f2f2f,40%);*/
   outline: none;
-  /*border: 0;*/
-  /*padding: 0 155px;*/
-  /*color: #fff;*/
-  
-  /*&::-webkit-datetime-edit-month-field {
-    color: red;
-  }
-  &::-webkit-datetime-edit-day-field {
-    color: white;
-  }
-  &::-webkit-datetime-edit-year-field {
-    color: blue;
-  }
-  
-  &::-webkit-clear-button {
-    font-size: 18px;
-    height: 30px;
-    position: relative;
-    right: 5px;
-    margin-right: 4px;
-  }
-  &::-webkit-inner-spin-button {
-    height: 30px;
-  }
-  &::-webkit-calendar-picker-indicator {
-    font-size: 18px;
-    
-        
-    &:hover {
-      background-color: lighten(#2f2f2f,40%);
-      color: darken(#fff, 10%);
-      cursor: pointer;
-    }
-    &:active {
-      color: blue;*/
-   /* }
-  }*/
 }
 
 

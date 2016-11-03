@@ -80,26 +80,24 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
     		<h2>Branding</h2>
 
     		<h3> Colour Palette</h3>
-
-    		<table id="colorTable" class="cT1">
+    		<table id="colorTable1" class="cT1">
       			<tr>
         			<th>main colours</th>
-        			<th></th>
         			<th></th>
         			<th>accent colour</th>
       				</tr>
       				<tr>
         			<td bgcolor="#14C89A">#14C89A</td>
-        			<td bgcolor="#0F9573">#0F9573</td>
-        			<td bgcolor="#808080">#808080</td>
+        			<!-- <td bgcolor="#0F9573">#0F9573</td> -->
         			<td bgcolor="#8D4595">#8D4595</td>
-              <td bgcolor="#860095">#860095</td>
+              <td bgcolor="#808080">#808080</td>
+              <td bgcolor="#787878">#787878</td>
       			</tr>
     		</table>
 
         <!-- for new color combination suggestion
         more hipster with bowtie and mustache feel (?) -->
-        <table id="colorTable2" class="cT2">
+        <!-- <table id="colorTable2" class="cT2">
             <tr>
               <th>main colours</th>
               <th></th>
@@ -129,23 +127,23 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
               <td bgcolor="#8D4595">#8D4595</td>
               <td bgcolor="#860095">#860095</td>
             </tr>
-        </table>
+        </table> -->
     	</section>
 
     	<section>
     		<h3>Images and Art Direction</h3>
     		<figure> 
-     			 <img src="img/dogServer.jpg" alt="A dog with bowtie">
+     			 <img src="img/dog_gallery/dogServer.jpg" alt="A dog with bowtie">
       			 <figcaption>The dogs in the cafe.</figcaption>
    			</figure>
 
 		    <figure> 
-		      <img src="img/pomBowtie.jpg" alt="A dog with bowtie">
+		      <img src="img/dog_gallery/pomBowtie.jpg" alt="A dog with bowtie">
 		      <figcaption>The dogs in the cafe.</figcaption>
 		    </figure>
 
 		    <figure> 
-		      <img src="img/dogcafe-4.jpg" width="80%" height="80%" alt="A dog inside the cafe">
+		      <img src="img/dog_gallery/dogcafe-4.jpg" width="80%" height="80%" alt="A dog inside the cafe">
 		      <figcaption>The potential view of interior.</figcaption>
 		    </figure>
 
@@ -177,10 +175,11 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
         </pre>
 
         <h3>Rendered element:</h3>
-        <a class="button-nav" href="#">Back</a> 
-        <a class="button-nav" href="#">Home</a>
-        <a class="button-nav" href="#">Cancel</a>  
-
+        <a href="#" class="navMainItem boxItem">About Us</a>
+        <a href="#" class="navMainItem boxItem">Our Pets</a>
+        <a href="#" class="navMainItem boxItem">Reservation</a>
+        <a href="#" class="navMainItem boxItem">Cafe Menu</a>
+<!-- 
         <h3>Rendered element 2:</h3>
         <a class="button-nav2" href="#">Back</a> 
         <a class="button-nav2" href="#">Home</a>
@@ -195,8 +194,7 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
         <a class="button-nav4" href="#">Back</a> 
         <a class="button-nav4" href="#">Home</a>
         <a class="button-nav4" href="#">Cancel</a>  
-
-      </section>
+      </section> -->
 
       <section>
         <h2>In-text link</h2>
@@ -257,7 +255,7 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
           <input type="text" id="reserve-form-last" placeholder="Lee">
           <!--phone number field -->
           <label for="reserve-form-phone"><strong>Phone</strong></label>
-          <input type="text" id="reserve-form-phone" placeholder="000000000">
+          <input type="number" id="reserve-form-phone" placeholder="000000000">
           <!-- email field -->
           <label for="reserve-form-email"><strong>Email</strong></label>
           <input type="text" id="reserve-form-email" placeholder="udonlee@dogentlecafe.com">
@@ -292,9 +290,9 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
         </pre>
 
         <h3>Rendered element:</h3>
-	    	  <h1>Header 1</h1>
-	         <h2>Header 2</h2>
-	    	  <h3>Header 3</h3>
+	    	  <h1 class="h1">Header 1</h1>
+	         <h2 class="h2">Header 2</h2>
+	    	  <h3 class="h3">Header 3</h3>
 
 	    </section>
 
