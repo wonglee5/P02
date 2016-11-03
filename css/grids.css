@@ -10,16 +10,6 @@ grids.css
 	box-sizing: border-box;
 }
 
-/*
-[class*='col-'] {
-	float: left;
-	padding-right: 1em;
-}
-
-[class*='col-']:last-of-type {
-	padding-right: 0;
-}
-*/
 [class^='grid-col-'] {
 	float: left;
 	padding: 0;
@@ -32,39 +22,6 @@ grids.css
 	padding-bottom: 2rem;
 }
 
-/*.grid-col-1of3{
-	width: 33.3333%;
-}
-.grid-col-2of3{
-	width: 66.6667%;
-}
-.grid-col-1of4{
-	width: 25%;
-}
-.grid-col-3of4{
-	width: 75%;
-}
-.grid-col-4of5{
-	width: 80%;
-}
-.grid-col-5of6{
-	width: 83.3333%;
-}
- 
-.grid-col-1of5 {
-	width: 20%;
-}
-*/
-
-/*
-.grid-col-indexImg{
-	width: 100%;
-	padding-left: -5rem;
-	padding-right: -5rem;
-	margin-left: -5rem;
-	margin-right: -5rem;
-}*/
-
 
 .grid-row::after {
 	content: "";
@@ -73,11 +30,11 @@ grids.css
 }
 
 
-/* making that navigation boxes are same length 
+/* making that navigation boxes are same length */
 .grid-col-1of6 > .nav-main-item {
 	width: 100%;
 }
-*/
+
 
 /* Extra space at top so other elements are not overlapped with navigation bar*/
 body {
@@ -85,14 +42,21 @@ body {
 }
 
 /*for screen resizing*/
-@media  (max-width: 30rem) {
+@media  (max-width: 48em) {
+	
+	.grid-col-1of4 {
+		width: 50%;
+	}
 
+	body {
+		padding-top: 19.5rem;
+	}
 }	
 
-@media (min-width: 60rem) {
+@media (min-width: 70em) {
+
 	.grid-col-1of2 {
 		width:50%;
-		padding-left: 2rem;
 	}
 
 	.grid-col-1of4 {

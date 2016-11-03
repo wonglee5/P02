@@ -369,7 +369,7 @@ for adjusting the section in item gallery
 	text-decoration: none;
 }
 
-.navMainItem {
+.navMainItem, a.navMainItem, a:visited, #nav-toggle {
 	display: inline-block;
 	color: black; /*what is this for?*/
 	background-color: rgb(250,250,250);
@@ -378,8 +378,10 @@ for adjusting the section in item gallery
 	float: right;
 	padding: 1.25rem 1.5rem;
 	margin: auto -0.2rem;
+
 	text-decoration: none;
 	text-align: center;
+	visibility: visible;
 	transition: background-color 0.15s ease-out;
 }
 
@@ -388,6 +390,37 @@ for adjusting the section in item gallery
 	color: white;
 	background-color: rgb(20, 200, 154);
 }
+
+/* for hidden mobile menu */
+#navToggle {
+	display: block;
+	border: 0;
+}
+
+#navToggle:hover, #nav-toggle:focus {
+	color: white;
+	background-color: rgb(20, 200, 154);
+}
+
+#navToggle.hidden, #navMainItem.hidden {
+	visibility: hidden;
+	display: none;
+}
+
+@media (max-width: 48em) {
+
+	.navMain {
+		position: fixed;
+	}
+
+	.navMainItem {
+		float: left;
+		width: 100%;
+		text-align: left;
+	}
+}
+
+
 
 /*.navMainLogo:active, .navMainLogo:hover, .navMainLogo:focus {
 	color: white;
