@@ -367,12 +367,13 @@ for adjusting the section in item gallery
 	border: 0;
 }
 
+
 #navToggle:hover, #nav-toggle:focus {
 	color: white;
 	background-color: rgb(20, 200, 154);
 }
 
-#navToggle.hidden, #navMainItem.hidden {
+#navToggle.hidden, #navCollapse.hidden {
 	visibility: hidden;
 	display: none;
 }
