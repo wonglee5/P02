@@ -55,8 +55,6 @@ figure {
 } 
 
 
-<<<<<<< 1996d9e40d6f0d11f9ad94d9992d2387155f76a0
-=======
 /* main page caption */
 
 .welcomeCaption{
@@ -195,7 +193,6 @@ h5:hover, h5:focus {
 }
 
 
->>>>>>> 7f2fbb9cd52e83bccb64bd4c44f90b3eb37a34dd
 /*text field*/
 
 
@@ -288,17 +285,7 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 .nav-main-item:hover, .nav-main-item:focus {
 	background-color: rgb(20, 200, 154);
 }
-.button-submit-reset {
-	display: inline-block;
-	padding: 0.5em 1em;
-	color: white;
-	font-family: Qarmic;
-	background-color: rgb(20, 200, 154);
-	/*border-radius: 0.3em;*/
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s ease-out;
-  	transition: background-color 0.5s ease-out;
-}
+
 
 
 /* company news section on index page */
@@ -406,9 +393,7 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 	border-right: .1em solid rgba(0,0,0,.06);
 }
 
-.button-submit-reset:hover, .button-submit-reset:focus {
-	background-color: rgb(120, 120, 120);
-}
+
 
 
 
@@ -480,7 +465,7 @@ for adjusting the section in item gallery
 	text-decoration: none;
 }
 
-.navMainItem, a.navMainItem, a:visited, #nav-toggle {
+.navMainItem, a.navMainItem, #nav-toggle {
 	display: inline-block;
 	color: black; /*what is this for?*/
 	background-color: rgb(250,250,250);
@@ -500,6 +485,22 @@ for adjusting the section in item gallery
 .navMainItem:active, .navMainItem:hover, .navMainItem:focus {
 	color: white;
 	background-color: rgb(20, 200, 154);
+}
+
+.button-submit-reset {
+	display: inline-block;
+	padding: 0.5em 1em;
+	color: white;
+	font-family: Qarmic;
+	background-color: rgb(20, 200, 154);
+	/*border-radius: 0.3em;*/
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+}
+
+.button-submit-reset:hover, .button-submit-reset:focus {
+	background-color: rgb(120, 120, 120);
 }
 
 /* for hidden mobile menu */

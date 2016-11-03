@@ -59,6 +59,12 @@ body {
 		width:50%;
 	}
 
+	.grid-col-2of4 {
+		width:50%;
+		padding-left: 3rem;
+		padding-right: 1rem;
+	}
+
 	.grid-col-1of4 {
 		width: 25%;
 		padding-top: 0em;
