@@ -24,12 +24,12 @@ body {
 }
 
 h1 {
-	font-family: 'Allan', serif;
+	font-family: 'dosislight', serif;
 	font-size: 3rem;
 }
 
 h2 {
-	font-family: 'Allan', sans-serif;
+	font-family: 'dosislight', sans-serif;
 	font-style: bold;
 	font-size: 2.5em;
 }
@@ -55,6 +55,147 @@ figure {
 } 
 
 
+<<<<<<< 1996d9e40d6f0d11f9ad94d9992d2387155f76a0
+=======
+/* main page caption */
+
+.welcomeCaption{
+		position: relative;
+		font-size: 2.5vw;
+		color: white;
+		/*top: 25%;*/
+		left: 50%;
+		margin-left: -25%;
+		bottom: 40vw;
+	}
+	h5{
+		font-size: 1vw;
+		text-align: center;
+		color: white;
+		border-style: solid;
+		border-width: 1px;
+		margin: -2rem 15vw -2rem 15vw;
+		padding-left: 3.5vw;
+		padding-right: 3.5vw;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+	}
+
+@media (min-width: 20em){
+	.welcomeCaption{
+		position: relative;
+		font-size: 3.8vw;
+		color: white;
+		/*top: 25%;*/
+		left: 42%;
+		margin-left: -23%;
+		bottom: 45vw;
+	}
+	h5{
+		font-size: 2.8vw;
+		text-align: center;
+		color: white;
+		border-style: solid;
+		border-width: 1px;
+		margin: -2rem 15vw -2rem 15vw;
+		padding-left: 3.5vw;
+		padding-right: 3.5vw;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+	}
+}
+@media (min-width: 32em){
+	.welcomeCaption{
+		position: relative;
+		font-size: 3.2vw;
+		color: white;
+		/*top: 25%;*/
+		left: 50%;
+		margin-left: -25%;
+		bottom: 40vw;
+	}
+	h5{
+		font-size: 1.7vw;
+		text-align: center;
+		color: white;
+		border-style: solid;
+		border-width: 1px;
+		margin: -2rem 15vw -2rem 15vw;
+		padding-left: 3.5vw;
+		padding-right: 3.5vw;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+	}
+}
+
+@media (min-width: 48em){
+	.welcomeCaption{
+		position: relative;
+		font-size: 3vw;
+		color: white;
+		/*top: 25%;*/
+		left: 50%;
+		margin-left: -25%;
+		bottom: 40vw;
+	}
+	h5{
+		font-size: 1.5vw;
+		text-align: center;
+		color: white;
+		border-style: solid;
+		border-width: 1px;
+		margin: -2rem 15vw -2rem 15vw;
+		padding-left: 3.5vw;
+		padding-right: 3.5vw;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+	}
+}
+
+@media (min-width: 56em){
+	.welcomeCaption{
+		position: relative;
+		font-size: 2.8vw;
+		color: white;
+		/*top: 25%;*/
+		left: 50%;
+		margin-left: -25%;
+		bottom: 40vw;
+	}
+	h5{
+		font-size: 1.3vw;
+		text-align: center;
+		color: white;
+		border-style: solid;
+		border-width: 1px;
+		margin: -2rem 15vw -2rem 15vw;
+		padding-left: 3.5vw;
+		padding-right: 3.5vw;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+	}
+
+}
+
+
+
+
+.welcomeCaption a{
+	display: inline-block;
+	background-color: rgba(240,240,240,0);
+	text-decoration: none;
+	padding-top: -2vw;
+}
+.welcomeCaption a:hover, .welcomeCaption a:focus {
+	background-color: rgb(240, 240, 240);
+}
+
+h5:hover, h5:focus {
+	background-color: rgba(240, 240, 240, 0.2);
+}
+
+
+>>>>>>> 7f2fbb9cd52e83bccb64bd4c44f90b3eb37a34dd
 /*text field*/
 
 
