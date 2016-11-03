@@ -295,6 +295,7 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 	float: left;
 	padding: 2em 0;
 	height: 100%;
+	margin-top: -13rem;
 }
 
 #companynews p {
@@ -306,6 +307,12 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 #companynews .grid-col-1of3 {
 	text-align: center;
 }
+#slideshow{
+	margin-bottom: -10rem;
+}
+figure.full-width{
+	margin-bottom: -10rem;
+} 
 
 
 /* SIDEBAR NAVIGATION */
