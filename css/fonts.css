@@ -11,12 +11,6 @@
 	src: url('../fonts/Rum_Raisin/RumRaisin-Regular.ttf') format('truetype'); 
 }
 
-@font-face {
-	font-family: 'Allan';
-	font-weight: normal;
-	font-style: normal;
-	src: url('../fonts/Allan/Allan-Regular.ttf') format('truetype'); 
-}
 
 @font-face {
     font-family: 'dosislight';
@@ -43,12 +37,6 @@
     src: url('../fonts/Dosis-Medium.ttf');
 }
 
-@font-face {
-	font-family: 'Rancho';
-	font-weight: normal;
-	font-style: normal;
-	src: url('../fonts/Rancho/Rancho-Regular.ttf');
-}
 
 
 
