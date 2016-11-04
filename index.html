@@ -38,6 +38,7 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
         <div>
 
           <a href="index.html" class="navMainLogo box-item"><image src="img/icons/catFootprintForButtons.png" width="15%" height="15%" class="logo">Pet Gentle Cafe</a>
+
           <button id="navToggle" class="hidden" aria-hidden="true" aria-controls="navMainItem">MENU</button>
            <a href="aboutUs.html" class="navMainItem box-item">About Us</a>
 
@@ -46,7 +47,7 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
             <a href="reservation.html" class="navMainItem box-item">Reservation</a>
 
             <a href="menu.html" class="navMainItem box-item">Cafe Menu</a>
-
+<!--
           <div id="navCollapse">
             <a href="aboutUs.html" class="hidden navMainItem box-item">About Us</a>
 
@@ -55,8 +56,8 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
             <a href="reservation.html" class="hidden navMainItem box-item">Reservation</a>
 
             <a href="menu.html" class="hidden navMainItem box-item">Cafe Menu</a>
-          </div>
-
+          </div> 
+-->
         </div>
       </nav>
     </header>
@@ -64,28 +65,33 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
     <script src="js/zepto.js"></script>
     <script src="js/mobileMenu.js"></script>
 
-    <!-- SLIDESHOW BOX HERE -->
+    <!-- BODY CONTENT STARTS HERE -->
     <div class="grid-row">
-      <section id="slideshow">
 
-        <figure class="full-width"> 
-          <img src="img/dog-cafe-mainpage.jpg" alt="A dog inside the cafe">
-          <figcaption class="welcomeCaption">
-            <div class="grid-col-6of6">
-              <h4>This is Pet Gentle Cafe. Welcome to the paradise.</h4>
-              <a href="#companynews">
-              <h5>Click here to find out more.</h5></a>
-            </div>
-          </figcaption>
-        </figure>
-        
-        
-<!-- 
-        <figure class="full-width"> 
-          <img src="img/catandman-bowtie.jpg" alt="A cat and a server">
-        </figure> -->
+      <!-- MAIN PAGE IMAGE -->
+      <section>
+        <div class="grid-col-6of6">
+          <figure class="full-width"> 
+            <img src="img/dog-cafe-mainpage.jpg" alt="A dog inside the cafe">
+            <!-- Overlapping Text Message -->
+            <figcaption class="welcomeCaption">
+              <div class="grid-col6of6">
+                <h4>Welcome to our cafe!  
+                  Enjoy your day with a friendly companion!</h4>
+              </div>
 
+              <div class="grid-col-6of6">
+                <div class="grid-col-1of3">
+                  <a href="#companynews">
+                  <h5>Find out more.</h5></a>
+                </div>
+              </div>
+            </figcaption>
+
+          </figure>
+        </div>
       </section>
+    
 
       <!-- COMPANY EVENTS, NEWS AND POST SECTION -->
       <section id="companynews" class="grid-row contentBody">
@@ -113,6 +119,7 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
         </div>
       </section>
     </div>
+    <!-- BODY CONTENT ENDS HERE -->
 
 
     <!-- FOOTER STARTS HERE -->

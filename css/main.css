@@ -11,7 +11,7 @@
 
 /* 
 	Overall Typography items
-	padding: top, right, bottom, left;
+
 */
 
 
@@ -40,6 +40,11 @@ h3 {
 	font-size: 1.5em;
 }
 
+h4 {
+	font-size: 0.9em;
+	text-align: center;
+}
+
 
 ul {
 	list-style: none;
@@ -57,125 +62,85 @@ figure {
 
 /* main page caption */
 
-.welcomeCaption{
-		position: relative;
+.welcomeCaption {
+		position: absolute;
 		font-size: 2.5vw;
 		color: white;
-		/*top: 25%;*/
+/*		top: 25%;
 		left: 50%;
-		margin-left: -25%;
+		margin-left: -25%;*/
 		bottom: 40vw;
-	}
-	h5{
-		font-size: 1vw;
+		text-shadow: 0.12rem 0.12rem #5A5A5A;
+}
+
+h5 {
+	font-size: 1vw;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	margin: -2rem 15vw;
+	padding: 1vw 3.5vw;
+}
+
+.welcomeCaption .grid-col-1of3 {
 		text-align: center;
-		color: white;
-		border-style: solid;
-		border-width: 1px;
-		margin: -2rem 15vw -2rem 15vw;
-		padding-left: 3.5vw;
-		padding-right: 3.5vw;
-		padding-top: 1vw;
-		padding-bottom: 1vw;
-	}
+
+}
+
 
 @media (min-width: 20em){
+
 	.welcomeCaption{
-		position: relative;
-		font-size: 3.8vw;
-		color: white;
-		/*top: 25%;*/
-		left: 42%;
-		margin-left: -23%;
+		font-size: 5vw;
+		margin: 0 -35vw;
 		bottom: 45vw;
 	}
-	h5{
-		font-size: 2.8vw;
-		text-align: center;
-		color: white;
-		border-style: solid;
-		border-width: 1px;
-		margin: -2rem 15vw -2rem 15vw;
-		padding-left: 3.5vw;
-		padding-right: 3.5vw;
-		padding-top: 1vw;
-		padding-bottom: 1vw;
-	}
-}
-@media (min-width: 32em){
-	.welcomeCaption{
-		position: relative;
-		font-size: 3.2vw;
-		color: white;
-		/*top: 25%;*/
-		left: 50%;
-		margin-left: -25%;
-		bottom: 40vw;
-	}
-	h5{
-		font-size: 1.7vw;
-		text-align: center;
-		color: white;
-		border-style: solid;
-		border-width: 1px;
-		margin: -2rem 15vw -2rem 15vw;
-		padding-left: 3.5vw;
-		padding-right: 3.5vw;
-		padding-top: 1vw;
-		padding-bottom: 1vw;
-	}
-}
 
-@media (min-width: 48em){
+	h5{
+		font-size: 5vw;
+		padding: 4vw 6vw;
+	}
+
+}
+/*
+@media (min-width: 32em){
+
 	.welcomeCaption{
-		position: relative;
-		font-size: 3vw;
-		color: white;
-		/*top: 25%;*/
-		left: 50%;
-		margin-left: -25%;
+		font-size: 3.2vw;
 		bottom: 40vw;
 	}
+}
+*/
+/*
+@media (min-width: 48em){
+
+	.welcomeCaption{
+		font-size: 3vw;
+	}
+
 	h5{
 		font-size: 1.5vw;
-		text-align: center;
-		color: white;
-		border-style: solid;
-		border-width: 1px;
-		margin: -2rem 15vw -2rem 15vw;
-		padding-left: 3.5vw;
-		padding-right: 3.5vw;
-		padding-top: 1vw;
-		padding-bottom: 1vw;
 	}
-}
+} */
 
-@media (min-width: 56em){
+@media (min-width: 40em){
 	.welcomeCaption{
 		position: relative;
 		font-size: 2.8vw;
 		color: white;
-		/*top: 25%;*/
-		left: 50%;
-		margin-left: -25%;
+	/*	left: 50%;
+		margin-left: -25%;*/
 		bottom: 40vw;
 	}
+
 	h5{
-		font-size: 1.3vw;
-		text-align: center;
-		color: white;
-		border-style: solid;
-		border-width: 1px;
-		margin: -2rem 15vw -2rem 15vw;
-		padding-left: 3.5vw;
-		padding-right: 3.5vw;
-		padding-top: 1vw;
-		padding-bottom: 1vw;
+		font-size: 1.5vw;
+/*		text-align: center;*/
+		margin: -2rem 15vw;
+		padding: 1vw 3.5vw;
 	}
 
 }
-
-
 
 
 .welcomeCaption a{
@@ -229,9 +194,7 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 */
 
 .contentBody{
-	padding-left: 3rem;
-	padding-right: 3rem;
-	padding-top: 1.5rem;
+	padding: 1.5rem 3rem 0 3rem;
 }
 
 .full-width {
@@ -239,17 +202,15 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 	position: relative;
 	left: 30%;
 	right: 30%;
-	margin-left: -30vw;
-	margin-right: -30vw;
-	margin-bottom: -1vw; /* for bottom white space */
+	margin: -1vw -30vw -1vw -30vw;
 }
-
+/*
 @media (min-width: 40em) {
 	.full-width {
 		width: 100vw;
 	}
 }
-
+*/
 
 /*about us page text elements STARTS*/
 
@@ -263,28 +224,6 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 }
 
 /*about us page text elements ENDS*/
-
-
-/* main navigation bar at the TOP*/
-.nav-main {
-	/*position: fixed;*/
-}
-
-.nav-main-item {
-	display: inline-block;
-	color: white;
-	background-color: rgb(255, 255, 255);
-	font-family: Qarmic;
-	font-size: 1rem;
-	padding: 0.9rem 0.5rem;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s ease-out;
-	transition: background-color 0.5s ease-out;
-}
-
-.nav-main-item:hover, .nav-main-item:focus {
-	background-color: rgb(20, 200, 154);
-}
 
 
 
@@ -307,13 +246,15 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 #companynews .grid-col-1of3 {
 	text-align: center;
 }
+/*
 #slideshow{
-	margin-bottom: -10rem;
+	margin-bottom: -30rem;
 }
+
 figure.full-width{
 	margin-bottom: -10rem;
 } 
-
+*/
 h3.contactUs{
 	margin-bottom: 0rem;
 }
