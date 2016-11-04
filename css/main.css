@@ -62,25 +62,6 @@ figure {
 
 /* main page caption */
 
-.welcomeCaption {
-		position: absolute;
-		font-size: 2.5vw;
-		color: white;
-/*		top: 25%;
-		left: 50%;
-		margin-left: -25%;*/
-		bottom: 40vw;
-		text-shadow: 0.12rem 0.12rem #5A5A5A;
-}
-
-h5 {
-	font-size: 1vw;
-	color: white;
-	border-style: solid;
-	border-width: 1px;
-	margin: -2rem 15vw;
-	padding: 1vw 3.5vw;
-}
 
 .welcomeCaption .grid-col-1of3 {
 		text-align: center;
@@ -141,32 +122,43 @@ h5 {
 	}
 
 }
-.welcomeCaption{
+.welcomeCaption {
 		position: relative;
-		font-size: 2.8vw;
+		display: inline-block;
+		font-size: 2.5vw;
 		color: white;
-	/*	left: 50%;
-		margin-left: -25%;*/
+		/*top: 25%;*/
+		left: 54.5%;
+		/*margin-left: -25%;*/
 		bottom: 40vw;
-	}
+		text-shadow: 0.12rem 0.12rem rgba(40,40,40,0.5);
+}
 
-	h5{
-		font-size: 1.5vw;
-/*		text-align: center;*/
-		margin: -2rem 15vw;
-		padding: 1vw 3.5vw;
-	}
+h5 {
+	font-size: 1vw;
+	text-align: center;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	margin: -2rem 25vw;
+	padding: 1vw 3.5vw;
+}
+
 
 
 .welcomeCaption a{
-	display: inline-block;
+	position: relative;
+	margin-left: 25%;
+	/*display: inline-block;*/
 	background-color: rgba(240,240,240,0);
 	text-decoration: none;
 	padding-top: -2vw;
+	z-index: 100;
+
 }
-.welcomeCaption a:hover, .welcomeCaption a:focus {
+/*.welcomeCaption a:hover, .welcomeCaption a:focus {
 	background-color: rgb(240, 240, 240);
-}
+}*/
 
 h5:hover, h5:focus {
 	background-color: rgba(240, 240, 240, 0.2);
