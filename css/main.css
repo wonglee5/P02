@@ -1,20 +1,10 @@
-/*main.css*/
-
-
 /* 
   COMBINED ELEMENTS -------------------
 */
-/*For Product Listing, codes are in flexbox.css*/
-/*For Website Grid Structure, codes are in grid.css
-
-
 
 /* 
 	Overall Typography items
-
 */
-
-
 body {
 	font-family: 'dosislight';
 	line-height: 150%;
@@ -48,6 +38,7 @@ h4 {
 
 ul {
 	list-style: none;
+	padding-left: 0;
 }
 
 img {
@@ -242,13 +233,9 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 #companyinfo .grid-col-1of2 {
 	padding: 3em 0em 0 6em;
 }
-
 /*about us page text elements ENDS*/
 
-
-
 /* company news section on index page */
-
 #companynews {
 	position: relative;
 	float: left;
@@ -266,15 +253,7 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 #companynews .grid-col-1of3 {
 	text-align: center;
 }
-/*
-#slideshow{
-	margin-bottom: -30rem;
-}
 
-figure.full-width{
-	margin-bottom: -10rem;
-} 
-*/
 h3.contactUs{
 	margin-bottom: 0rem;
 }
@@ -285,7 +264,6 @@ p.contactUs{
 
 
 /* SIDEBAR NAVIGATION */
-
 #sidebar {
 	float: left;
 	padding: 0;
@@ -296,7 +274,6 @@ p.contactUs{
 	bottom: 0;
 
 	height: 100%;
-
 }
 
 .sidebar-item {
@@ -317,14 +294,9 @@ p.contactUs{
 	background-color: rgb(220, 220, 220);
 }
 
-
-
-/*
-
- FOOTER 
-
+/*	
+	FOOTER 
 */
-
 #footer {
 	position: relative;
 	float: bottom;
@@ -369,10 +341,6 @@ p.contactUs{
 	border-right: .1em solid rgba(0,0,0,.06);
 }
 
-
-
-
-
 /* 
 
 for adjusting the section in item gallery
@@ -390,6 +358,7 @@ for adjusting the section in item gallery
 	display: inline-block;
 	padding-bottom: -5rem;
 }
+
 .itemParagraph{
 	margin-top: 3rem;
 	display: inline-block;
@@ -513,32 +482,25 @@ for adjusting the section in item gallery
 	}
 }
 
-
-
 /*.navMainLogo:active, .navMainLogo:hover, .navMainLogo:focus {
 	color: white;
 	background-color: rgb(20, 200, 154);
 }*/
 
-
-
 /* item contents */
 .itemContent{
 	/*padding-left: -1rem;*/
 }
-/* DONT NEED THIS??? */
-a.logo {
+
+/*a.logo {
 	font-family: RumRaisin;
-}
+}*/
 
-
-/* food menu list stuff*/
+/* food menu list stuff
 #foodItems{
 
 }
-
-
-
+*/
 .menuItenPara{
 	padding-left: 100rem;
 }
