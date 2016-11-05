@@ -41,7 +41,7 @@ h3 {
 }
 
 h4 {
-	font-size: 0.9em;
+	font-size: 1em;
 	text-align: center;
 }
 
@@ -59,6 +59,19 @@ figure {
 	margin: 0;
 } 
 
+#styleguide code{
+	margin: 0 0 2em;
+	padding: 1em 3em 0 0;
+}
+
+#styleguide h4 {
+	text-align: left;
+	font-family: dosismedium;
+}
+
+#styleguide figure {
+	margin: 2em 0;
+}
 
 /* main page caption */
 
@@ -454,7 +467,7 @@ for adjusting the section in item gallery
 	display: inline-block;
 	padding: 0.5em 1em;
 	color: white;
-	font-family: Qarmic;
+	font-family: dosismedium;
 	background-color: rgb(20, 200, 154);
 	/*border-radius: 0.3em;*/
 	text-decoration: none;

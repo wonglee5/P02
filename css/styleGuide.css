@@ -1,20 +1,6 @@
- 
-
-	styleGuide.css 
-
-*/
-
-
 /* 
 	Section codes ------------------
 */
-
-/*line between sections */
-section:not([id]) {
-  margin: 0 5em;
-  padding: 2em 0;
-  border-bottom: 0.10em solid gray;
-}
 
 /*grey box around sample code */
 section code {
@@ -22,10 +8,10 @@ section code {
   display: block;
 }
 
-
-
 pre {
 	white-space: pre-wrap;
+	margin: 2.5em 0 0;
+	height: 100%;
 }
 
 
@@ -34,7 +20,7 @@ pre {
 */
 
 #colorTable { 
-	margin: 4em 2em; /*top right bottom left */
+	margin: 1.5em 0; /*top right bottom left */
 	border-collapse: collapse;
 	border: none;
 	border-spacing: 0;
@@ -53,7 +39,7 @@ p a:hover, p a:focus, ul a:hover, ul a:focus {
 th {
 	height: 1em;
 	text-align: center;
-	padding: 0 0 1em;
+	padding: 0 0 0.5em;
 }
 
 td { /* th=table header cell  td=cell in the table*/
@@ -71,88 +57,29 @@ label {
 input {
 	height: 2rem;
 }
+
 input, textarea, select {
-	
-	
 	-webkit-border-radius: 5px;
 	background-color: rgba(120,120,120,.1);
-	font-family: 'Aaargh';
+	font-family: 'dosislight';
 	font-size: 100%;
 	width: 18rem;
 	padding-right: 5rem;
 	border: none;
 	border-radius: 0;
 }
+
 input[type=reset] {
 	width: 6rem;
 }
-.h1 {
-	font-family: 'Allan', serif;
-	font-size: 3rem;
-}
-
-.h2 {
-	font-family: 'Allan', sans-serif;
-	font-style: bold;
-	font-size: 2.5em;
-}
-
-.h3 {
-	font-family: 'dosislight', sans-serif;
-	font-style: bold;
-	font-size: 1.5em;
-}
-
-/* OLD NAVIGATION BAR */
-
-
-.nav-main {
-	/*position: fixed;*/
-	text-align: center;
-	top: 0;
-	right: 0;
-	left: 0;
-	z-index: 10;
-}
-
-/* For Flex box and navigation menu*/
-.nav-main-item {
-	display: inline-block;
-	color: white;
-	background-color: rgb(0, 0, 0);
-	font-family: Rancho;
-	font-size: 1.5rem;
-	padding: 0.9rem 0.5rem;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s ease-out;
-	transition: background-color 0.5s ease-out;
-}
-
-.nav-main-item:hover, .nav-main-item:focus {
-	background-color: rgb(20, 200, 154);
-}
-
-.nav-logo-test {
-	display: inline-block;
-	color: white;
-	background-color: rgb(0, 0, 0);
-	font-family: Chaplin;
-	font-size: 1rem;
-	padding: 0.9rem 0.5rem;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s ease-out;
-	transition: background-color 0.5s ease-out;
-}
-
 
 /* Styling for the navigation button */
 .button-nav {
 	display: inline-block;
 	color: white;
 	background-color: rgb(20, 200, 154);
-	font-family: Qarmic;
+	font-family: dosismedium;
 	padding: 0.5em 0.75em;
-	border-radius: 0.3em;
 	text-decoration: none;
 	-webkit-transition: background-color 0.5s ease-out;
 	transition: background-color 0.5s ease-out;
@@ -162,42 +89,32 @@ input[type=reset] {
   background-color: gray;
 }
 
-.navMainItem {
-	display: inline-block;
-	color: black; /*what is this for?*/
-	background-color: rgb(250,250,250);
-	font-size: 1.2rem;
-	font-family: dosislight;
-	/*float: right;*/
-	padding: 1.25rem 1.5rem;
-	margin: auto -0.2rem;
-	text-decoration: none;
+/* Nav Buttons */
+
+#styleguide .navMain{
+	position: relative;
+}
+
+.grid-col-6of6test {
+	width: 90%;
+	background: rgb(20, 200, 154);
+	height: 3.5em;
+	margin: 0.2em 0 0.2em;
 	text-align: center;
-	transition: background-color 0.15s ease-out;
 }
 
-.navMainItem:active, .navMainItem:hover, .navMainItem:focus {
-	color: white;
-	background-color: rgb(20, 200, 154);
+.grid-col-1of3test {
+	width: 29.5%;
+	background: rgb(20, 200, 154);
+	height: 5em;
+	margin: 0.2em 0.1em 0;
+	text-align: center;
+
 }
 
-/*submit/reset buttons*/
 
-.button-submit-reset {
-	display: inline-block;
-	padding: 0.5em 1em;
-	color: white;
-	font-family: Qarmic;
-	background-color: rgb(20, 200, 154);
-	border-radius: 0.3em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s ease-out;
-  	transition: background-color 0.5s ease-out;
-}
 
-.button-submit-reset:hover, .button-submit-reset:focus {
-	background-color: rgb(120, 120, 120);
-}
+
 
 
 
