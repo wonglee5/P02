@@ -1,5 +1,5 @@
 var scrollY = 0;
-var distance = 30;
+var distance = 100;
 var speed = 5;
 function autoScrollTo(el) {
 	var currentY = window.pageYOffset;
