@@ -545,7 +545,10 @@ a.logo {
 
 /* food menu list stuff*/
 #foodItems{
-
+	display: inline-flex;
+}
+#coffee, #tea, #baked_goods{
+	display: inline-block;
 }
 
 

@@ -43,13 +43,13 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
             <div id="sidebar">
               <ul class="sidebar-items">
                 <li class="sidebar-item">
-                  <a href="#coffee">Coffee</a>
+                  <a href="#" onclick="return false;" onmousedown="autoScrollTo('coffee');">Coffee</a>
                 </li>
                 <li class="sidebar-item">
-                  <a href="#tea">Tea</a>
+                  <a href="#" onclick="return false;" onmousedown="autoScrollTo('tea');">Tea</a>
                 </li>
                 <li class="sidebar-item">
-                  <a href="#baked_goods">Baked Goods</a>
+                  <a href="#" onclick="return false;" onmousedown="autoScrollTo('baked_goods');"">Baked Goods</a>
                 </li>
               </ul>
             </div>
@@ -58,124 +58,150 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
 
         <!-- coffee menu list -->
         <section id="food-items" class="grid-col-3of4">
-
-          <h2 id="coffee">Coffee</h2>  
-          <!-- item 1 -->
-          <div class="grid-col-1of3">  
-            <img src="img/food/Americano.jpg" alt="Img of Café" width="100%">
-          </div>
-          <div class="grid-col-3of4">
-            <h3>Americano</h3>
-            <p>Price: $4.25</p>
-            <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
-          </div>
-          <!-- item 2 -->
-          <div class="grid-col-1of3">  
-            <img src="img/food/cappuccino.jpg" alt="Img of Café" width="100%">
-          </div>
-          <div class="grid-col-3of4">
-            <h3>Cappuccino</h3>
-            <p>Price: $4.25</p>
-            <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
-          </div>
-          <!-- item 3 -->
-          <div class="grid-col-1of3">  
-            <img src="img/food/Espresso.jpg" alt="Img of Café" width="100%">
-          </div>
-          <div class="grid-col-3of4">
-            <h3>Espresso</h3>
-            <p>Price: $4.25</p>
-            <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
-          </div>
-          <!-- item 4 -->
-          <div class="grid-col-1of3">  
-            <img src="img/food/latte.jpg" alt="Img of Café">
-          </div>
-          <div class="grid-col-3of4">
-            <h3>Latte</h3>
-            <p>Price: $4.25</p>
-            <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
-          </div>
-
-          <div id="tea">
-          <h2>Tea</h2>    
-          <!-- tea item 1 -->
-          <div class="grid-col-1of3">  
-            <img src="img/food/englishBreakfast.jpg" alt="Img of Café" width="100%">
-          </div>
-          <div class="grid-col-3of4">
-            <h3>English Breakfast Tea</h3>
-            <p>Price: $4.25</p>
-            <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
-          </div>
-          <!-- tea item 2 -->
-          <div class="grid-col-1of3">  
-            <img src="img/food/earlGrey.jpg" alt="Img of Café" width="100%">
-          </div>
-          <div class="grid-col-3of4">
-            <h3>Earl Grey Tea</h3>
-            <p>Price: $4.25</p>
-            <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
-          </div>
-          <!-- tea item 3 -->
-          <div class="grid-col-1of3">  
-            <img src="img/food/macha.jpg" alt="Img of Café" width="100%">
-          </div>
-          <div class="grid-col-3of4">
-            <h3>Macha</h3>
-            <p>Price: $4.25</p>
-            <p>Description: Using Japan brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
-          </div>
-          <!-- tea item 4 -->
-          <div class="grid-col-1of3">  
-            <img src="img/food/chai.jpg" alt="Img of Café" width="100%">
-          </div>
-          <div class="grid-col-3of4">
-            <h3>Chai Tea</h3>
-            <p>Price: $4.25</p>
-            <p>Description: Using India brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
-          </div>
+          <div id="coffee">
+            <h2>Coffee</h2>  
+            <!-- item 1 -->
+            <div class="grid-col-6of6">
+              <div class="grid-col-1of3">  
+                <img src="img/food/Americano.jpg" alt="Img of Café" width="100%">
+              </div>
+              <div class="grid-col-3of4">
+                <h3>Americano</h3>
+                <p>Price: $4.25</p>
+                <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
+              </div>
+            </div>
+            <!-- item 2 -->
+            <div class="grid-col-6of6">
+              <div class="grid-col-1of3">  
+                <img src="img/food/cappuccino.jpg" alt="Img of Café" width="100%">
+              </div>
+              <div class="grid-col-3of4">
+                <h3>Cappuccino</h3>
+                <p>Price: $4.25</p>
+                <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
+              </div>
+            </div>
+            <!-- item 3 -->
+            <div class="grid-col-6of6">
+              <div class="grid-col-1of3">  
+                <img src="img/food/Espresso.jpg" alt="Img of Café" width="100%">
+              </div>
+              <div class="grid-col-3of4">
+                <h3>Espresso</h3>
+                <p>Price: $4.25</p>
+                <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
+              </div>
+            </div>
+            <!-- item 4 -->
+            <div class="grid-col-6of6">
+              <div class="grid-col-1of3">  
+                <img src="img/food/latte.jpg" alt="Img of Café">
+              </div>
+              <div class="grid-col-3of4">
+                <h3>Latte</h3>
+                <p>Price: $4.25</p>
+                <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
+              </div>
+            </div>
           </div>
 
-          <div id="baked_goods">
-          <h2>Baked Goods</h2>  
-          <!-- baked goods item 1 -->
-          <div class="grid-col-1of3">  
-            <img src="img/food/muffin.jpg" alt="Img of Café" width="100%">
-          </div>
-          <div class="grid-col-3of4">
-            <h3>Muffin</h3>
-            <p>Price: $4.25</p>
-            <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
-          </div>
-          <!-- baked goods item 2 -->
-          <div class="grid-col-1of3">  
-            <img src="img/food/pancake.jpg" alt="Img of Café" width="100%">
-          </div>
-          <div class="grid-col-3of4">
-            <h3>Pancake</h3>
-            <p>Price: $4.25</p>
-            <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
-          </div>
-          <!-- baked goods item 3 -->
-          <div class="grid-col-1of3">  
-            <img src="img/food/waffle.jpg" alt="Img of Café" width="100%">
-          </div>
-          <div class="grid-col-3of4">
-            <h3>Waffle</h3>
-            <p>Price: $4.25</p>
-            <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
-          </div>
-          <!-- baked goods item 3 -->
-          <div class="grid-col-1of3">  
-            <img src="img/food/crepes.jpg" alt="Img of Café" width="100%">
-          </div>
-          <div class="grid-col-3of4">
-            <h3>Crepes</h3>
-            <p>Price: $4.25</p>
-            <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
-          </div>
-          </div>
+            <div id="tea">
+              <h2>Tea</h2>    
+              <!-- tea item 1 -->
+              <div class="grid-col-6of6">
+                <div class="grid-col-1of3">  
+                  <img src="img/food/englishBreakfast.jpg" alt="Img of Café" width="100%">
+                </div>
+                <div class="grid-col-3of4">
+                  <h3>English Breakfast Tea</h3>
+                  <p>Price: $4.25</p>
+                  <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
+                </div>
+              </div>
+              <!-- tea item 2 -->
+              <div class="grid-col-6of6">
+                <div class="grid-col-1of3">  
+                  <img src="img/food/earlGrey.jpg" alt="Img of Café" width="100%">
+                </div>
+                <div class="grid-col-3of4">
+                  <h3>Earl Grey Tea</h3>
+                  <p>Price: $4.25</p>
+                  <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
+                </div>
+              </div>
+              <!-- tea item 3 -->
+              <div class="grid-col-6of6">
+                <div class="grid-col-1of3">  
+                  <img src="img/food/macha.jpg" alt="Img of Café" width="100%">
+                </div>
+                <div class="grid-col-3of4">
+                  <h3>Macha</h3>
+                  <p>Price: $4.25</p>
+                  <p>Description: Using Japan brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
+                </div>
+              </div>
+              <!-- tea item 4 -->
+              <div class="grid-col-6of6">
+                <div class="grid-col-1of3">  
+                  <img src="img/food/chai.jpg" alt="Img of Café" width="100%">
+                </div>
+                <div class="grid-col-3of4">
+                  <h3>Chai Tea</h3>
+                  <p>Price: $4.25</p>
+                  <p>Description: Using India brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
+                </div>
+              </div>
+            </div>
+
+            <div id="baked_goods">
+              <h2>Baked Goods</h2>  
+              <!-- baked goods item 1 -->
+              <div class="grid-col-6of6">
+                <div class="grid-col-1of3">  
+                  <img src="img/food/muffin.jpg" alt="Img of Café" width="100%">
+                </div>
+                <div class="grid-col-3of4">
+                  <h3>Muffin</h3>
+                  <p>Price: $4.25</p>
+                  <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
+                </div>
+              </div>
+              <!-- baked goods item 2 -->
+              <div class="grid-col-6of6">
+                <div class="grid-col-1of3">  
+                  <img src="img/food/pancake.jpg" alt="Img of Café" width="100%">
+                </div>
+                <div class="grid-col-3of4">
+                  <h3>Pancake</h3>
+                  <p>Price: $4.25</p>
+                  <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
+                </div>
+              </div>
+              <!-- baked goods item 3 -->
+              <div class="grid-col-6of6">
+                <div class="grid-col-1of3">  
+                  <img src="img/food/waffle.jpg" alt="Img of Café" width="100%">
+                </div>
+                <div class="grid-col-3of4">
+                  <h3>Waffle</h3>
+                  <p>Price: $4.25</p>
+                  <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
+                </div>
+              </div>
+              <!-- baked goods item 3 -->
+              <div class="grid-col-6of6">
+                <div class="grid-col-1of3">  
+                  <img src="img/food/crepes.jpg" alt="Img of Café" width="100%">
+                </div>
+                <div class="grid-col-3of4">
+                  <h3>Crepes</h3>
+                  <p>Price: $4.25</p>
+                  <p>Description: Using local brand, Granville Island Coffee Company, our cafe barista will serve you delicious cup with rich aroma.</p>
+                </div>
+              </div>
+            </div>
+          
         </section>
       </section>
  
@@ -211,6 +237,7 @@ Used style guide template (Style_guide.html) from canvas.sfu.ca
       </div>
     </section>
     <!-- FOOTER ENDS HERE -->
+    <script src="js/autoScroll.js"></script>
 
   </body>
 </html>
