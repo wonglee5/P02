@@ -496,6 +496,7 @@ for adjusting the section in item gallery
 }
 .hidden {
 	visibility: hidden;
+	/*height: 0;*/
 }
 
 @media (max-width: 48em) {
