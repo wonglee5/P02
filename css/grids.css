@@ -106,3 +106,57 @@ body {
 	}
 
 }
+
+@media (min-width: 100em) {
+
+	.grid-col-1of2 {
+		width:50%;
+	}
+
+	.grid-col-2of4 {
+		width:50%;
+		padding-left: 3rem;
+		padding-right: 1rem;
+	}
+
+	.grid-col-1of4 {
+		width: 25%;
+		padding-top: 0em;
+		margin-bottom: -2.75rem;
+	}
+
+	.grid-col-3of4 {
+		width: 60%;
+		padding-left: 3em;
+		/*padding-right: -1rem;*/
+		padding-top: 0;
+		margin-right: 2rem;
+	}
+
+	.grid-col-4of5 {
+		width: 80%;
+		padding-left: 2rem;
+	}
+
+	.grid-col-1of6 {
+		width: 16.666%;
+	}
+
+	.grid-col-5of6 {
+		width: 83.333%;
+	}
+
+	.grid-col-1of3 {
+		width: 33.333%;
+		padding-top: 1.5em;
+	}
+
+	.grid-col-2of3 {
+		width: 66.666%;
+	}
+
+	.grid-col-6of6 {
+		width: 100%;
+	}
+
+}
