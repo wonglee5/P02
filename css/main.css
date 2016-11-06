@@ -386,16 +386,28 @@ for adjusting the section in item gallery
 	margin-left: 5rem;
 	z-index: 100;
 }
+
+@media (min-width: 48em){
+	.galleryLine{
+		display: inline-block;
+		padding-bottom: -5rem;
+	}
+}
 .galleryLine{
-	display: inline-block;
+	display: flex;
 	padding-bottom: -5rem;
 }
+
+
+
 .itemParagraph{
 	margin-top: 3rem;
 	display: inline-block;
 }
 
 .itemHover{
+	margin:0;
+	margin-bottom: 0.3rem;
 	display: block;
 	-webkit-transition: opacity 0.4s ease-out;
   	transition: opacity 0.4s ease-out;
