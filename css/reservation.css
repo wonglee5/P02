@@ -1,7 +1,12 @@
 .col {
-	margin: 2rem 2rem 0;
+	margin: 0 2rem 2rem;
 	text-align: left;
 	margin-left: 0;
+}
+
+.col label{
+	font-family: 'DosisMedium', sans-serif;
+	font-size: 1.1em;
 }
 
 .contentBody {
@@ -17,17 +22,22 @@
 .grid-col-1of2 p{
 	margin-top: 0;
 	padding-right: 4rem;
-	text-align: justify;
+	text-align: left;
+}
+
+.grid-col-1of2 img{
+	padding-top: 0;
+	width: 100%;
 }
 
 #form{
 	margin-left: 1rem;
 }
 
-.img-padding {
+/*.img-padding {
 	width: 100%;
 	margin: -.2rem;
-}
+}*/
 
 .button-submit-reset {
 	margin-top: 2rem;
@@ -86,12 +96,6 @@ figcaption {
 	font-size: 2rem;
 	color: white;
 	background-color: rgba(50,50,50,0.4);
-}
-
-label {
-	font-family: 'Allan', sans-serif;
-	font-style: bold;
-	font-size: 1.5em;
 }
 
 input {
@@ -153,6 +157,20 @@ input[type=date] {
   text-transform: uppercase;
   outline: none;
 }
+
+
+@media (min-width: 20em){ /* for mobile screen size */
+	.grid-col-1of2 img{
+		padding-top: 3em;
+	}
+}
+
+@media (min-width: 40em){ /* for desktop or bigger screen size */
+	.grid-col-1of2 img{
+		padding-top: 0em;
+	}
+}
+
 
 
 

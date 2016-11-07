@@ -326,14 +326,8 @@ for adjusting the section in item gallery
 	z-index: 100;
 }
 
-@media (min-width: 48em){
-	.galleryLine{
-		display: inline-block;
-		padding-bottom: -5rem;
-	}
-}
 .galleryLine{
-	display: flex;
+	display: inline-block;
 	padding-bottom: -5rem;
 }
 
@@ -502,10 +496,17 @@ for adjusting the section in item gallery
 		font-size: 1em;
 		margin-bottom: 0.1em;
 	}
+
+	.galleryLine .grid-col-1of4 {
+		width: 100%;
+	}
 }
 
 @media (min-width: 40em){ /* for desktop or bigger screen size */
-
+	.galleryLine .grid-col-1of4 {
+		width: 25%;
+		margin-bottom: -3.1em;
+	}
 }
 
 
