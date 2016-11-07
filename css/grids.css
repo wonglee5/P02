@@ -1,9 +1,3 @@
-/*
-
-grids.css
-
-*/
-
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -15,13 +9,10 @@ grids.css
 	padding: 0;
 }
 
-
-
 .grid-col-1of6, .grid-col-5of6, .grid-col-6of6, .grid-col-1of3, .grid-col-2of3, .grid-col-1of4, .grid-col-3of4, .grid-col-4of5 {
 	width: 100%;
 	padding-bottom: 2rem;
 }
-
 
 .grid-row::after {
 	content: "";
@@ -29,12 +20,10 @@ grids.css
 	clear: both;
 }
 
-
 /* making that navigation boxes are same length */
 .grid-col-1of6 > .nav-main-item {
 	width: 100%;
 }
-
 
 /* Extra space at top so other elements are not overlapped with navigation bar*/
 body {
@@ -42,7 +31,7 @@ body {
 }
 
 /*for screen resizing*/
-@media  (max-width: 48em) {
+@media  (max-width: 48em) { 
 	
 	.grid-col-1of4 {
 		width: 50%;
@@ -51,9 +40,9 @@ body {
 	body {
 		padding-top: 7rem;
 	}
-}	
+}		
 
-@media (min-width: 70em) {
+@media (min-width: 50em) {
 
 	.grid-col-1of2 {
 		width:50%;

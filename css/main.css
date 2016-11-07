@@ -1,42 +1,30 @@
-/*main.css*/
-
-
 /* 
   COMBINED ELEMENTS -------------------
+  For Product Listing, codes are in flexbox.css
+  For Website Grid Structure, codes are in grid.css
 */
-/*For Product Listing, codes are in flexbox.css*/
-/*For Website Grid Structure, codes are in grid.css
-
-
 
 /* 
 	Overall Typography items
-
 */
-
-
 body {
-	font-family: 'dosislight';
+	font-family: 'DosisLight';
 	line-height: 150%;
-
-	/*prevent horizontal scroll*/
-	overflow-x: hidden;
+	overflow-x: hidden; /*prevent horizontal scroll*/
 }
 
 h1 {
-	font-family: 'dosislight', serif;
+	font-family: 'DosisLight', serif;
 	font-size: 3rem;
 }
 
 h2 {
-	font-family: 'dosislight', sans-serif;
-	font-style: bold;
-	font-size: 2.5em;
+	font-family: 'DosisLight', sans-serif;
+	font-size: 2.2em;
 }
 
 h3 {
-	font-family: 'dosislight', sans-serif;
-	font-style: bold;
+	font-family: 'DosisLight', sans-serif;
 	font-size: 1.5em;
 }
 
@@ -44,7 +32,6 @@ h4 {
 	font-size: 1em;
 	text-align: center;
 }
-
 
 ul {
 	list-style: none;
@@ -66,7 +53,7 @@ figure {
 
 #styleguide h4 {
 	text-align: left;
-	font-family: dosismedium;
+	font-family: DosisMedium;
 }
 
 #styleguide figure {
@@ -74,75 +61,57 @@ figure {
 }
 
 /* main page caption */
-
-
 .welcomeCaption .grid-col-1of3 {
 		text-align: center;
-
 }
 
+figure.full-width{
+	margin-bottom: 3rem;
+} 
 
-@media (min-width: 20em){
+@media (min-width: 20em){ /* for mobile screen size */
 
 	.welcomeCaption{
 		font-size: 5vw;
 		margin: 0 -35vw;
 		bottom: 45vw;
 	}
-
+	h2 {
+		line-height: 120%;
+	}
+	h3 {
+		line-height: 120%;
+	}
 	h5{
 		font-size: 5vw;
 		padding: 4vw 6vw;
 	}
-
+	figure.full-width{
+		margin-top: -3.5em;
+		margin-bottom: 5.5em;
+	} 
 }
-/*
-@media (min-width: 32em){
 
-	.welcomeCaption{
-		font-size: 3.2vw;
-		bottom: 40vw;
-	}
-}
-*/
-/*
-@media (min-width: 48em){
-
-	.welcomeCaption{
-		font-size: 3vw;
-	}
-
-	h5{
-		font-size: 1.5vw;
-	}
-} */
-
-@media (min-width: 40em){
+@media (min-width: 40em){ /* for desktop or bigger screen size */
 	.welcomeCaption{
 		position: relative;
 		font-size: 2.8vw;
 		color: white;
-	/*	left: 50%;
-		margin-left: -25%;*/
 		bottom: 40vw;
 	}
-
 	h5{
 		font-size: 1.5vw;
-/*		text-align: center;*/
 		margin: -2rem 15vw;
 		padding: 1vw 3.5vw;
 	}
-
 }
+
 .welcomeCaption {
 		position: relative;
 		display: inline-block;
 		font-size: 2.5vw;
 		color: white;
-		/*top: 25%;*/
 		left: 54.5%;
-		/*margin-left: -25%;*/
 		bottom: 40vw;
 		text-shadow: 0.12rem 0.12rem rgba(40,40,40,0.5);
 }
@@ -156,8 +125,6 @@ h5 {
 	margin: -2rem 25vw;
 	padding: 1vw 3.5vw;
 }
-
-
 
 .welcomeCaption a{
 	position: relative;
@@ -177,14 +144,11 @@ h5:hover, h5:focus {
 	background-color: rgba(240, 240, 240, 0.2);
 }
 
-
 /*text field*/
-
-
 input, textarea {
 	display: block;
 	background-color: #EDEBFF;
-	font-family: dosislight;
+	font-family: DosisLight;
 	font-size: 80%;
 	padding: 0.1em 0.5em;
 }
@@ -206,13 +170,11 @@ p a:hover, p a:focus, ul a:hover, ul a:focus {
 	text-decoration-color: #8D4595;
 }
 
-
 /* 
 
 MAIN NAVIGATION MENU, IMAGE, BODY CONTENT 
 
 */
-
 .contentBody{
 	padding: 1.5rem 3rem 0 3rem;
 }
@@ -224,16 +186,12 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 	right: 30%;
 	margin: -1vw -30vw -1vw -30vw;
 }
-/*
-@media (min-width: 40em) {
-	.full-width {
-		width: 100vw;
-	}
-}
-*/
+
+/*figure.full-width{
+	margin-bottom: 10rem;
+} */
 
 /*about us page text elements STARTS*/
-
 #companyinfo p {
 	padding: 1em 0;
 	margin: 0 5em 0 0;
@@ -242,13 +200,10 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 #companyinfo .grid-col-1of2 {
 	padding: 3em 0em 0 6em;
 }
-
 /*about us page text elements ENDS*/
 
 
-
 /* company news section on index page */
-
 #companynews {
 	position: relative;
 	float: left;
@@ -266,18 +221,11 @@ MAIN NAVIGATION MENU, IMAGE, BODY CONTENT
 #companynews .grid-col-1of3 {
 	text-align: center;
 }
-/*
-#slideshow{
-	margin-bottom: -30rem;
-}
 
-figure.full-width{
-	margin-bottom: -10rem;
-} 
-*/
 h3.contactUs{
 	margin-bottom: 0rem;
 }
+
 p.contactUs{
 	font-size: 0.95rem;
 	margin-bottom: -1rem;
@@ -285,7 +233,6 @@ p.contactUs{
 
 
 /* SIDEBAR NAVIGATION */
-
 #sidebar {
 	float: left;
 	padding: 0;
@@ -317,14 +264,11 @@ p.contactUs{
 	background-color: rgb(220, 220, 220);
 }
 
-
-
 /*
 
  FOOTER 
 
 */
-
 #footer {
 	position: relative;
 	float: bottom;
@@ -369,16 +313,11 @@ p.contactUs{
 	border-right: .1em solid rgba(0,0,0,.06);
 }
 
-
-
-
-
 /* 
 
 for adjusting the section in item gallery
 
 */
-
 .giftShopGallery{
 	display: inline-block;
 	margin-top: 2rem;
@@ -397,8 +336,6 @@ for adjusting the section in item gallery
 	display: flex;
 	padding-bottom: -5rem;
 }
-
-
 
 .itemParagraph{
 	margin-top: 3rem;
@@ -458,7 +395,7 @@ for adjusting the section in item gallery
 	color: black; /*what is this for?*/
 	background-color: rgb(250,250,250);
 	font-size: 1.2rem;
-	font-family: dosislight;
+	font-family: DosisLight;
 	float: right;
 	padding: 1.25rem 1.5rem;
 	margin: auto -0.2rem;
@@ -467,7 +404,6 @@ for adjusting the section in item gallery
 	text-align: center;
 	transition: background-color 0.15s ease-out;
 }
-
 
 .navMainItem:active, .navMainItem:hover, .navMainItem:focus {
 	color: white;
@@ -478,7 +414,7 @@ for adjusting the section in item gallery
 	display: inline-block;
 	padding: 0.5em 1em;
 	color: white;
-	font-family: dosismedium;
+	font-family: DosisMedium;
 	background-color: rgb(20, 200, 154);
 	/*border-radius: 0.3em;*/
 	text-decoration: none;
@@ -501,7 +437,6 @@ for adjusting the section in item gallery
 
 }
 
-
 #navToggle:hover, #nav-toggle:focus {
 	color: white;
 	background-color: rgb(20, 200, 154);
@@ -511,6 +446,7 @@ for adjusting the section in item gallery
 	visibility: hidden;
 	display: none;
 }
+
 .hidden {
 	visibility: hidden;
 	/*height: 0;*/
@@ -529,24 +465,19 @@ for adjusting the section in item gallery
 	}
 }
 
-
-
 /*.navMainLogo:active, .navMainLogo:hover, .navMainLogo:focus {
 	color: white;
 	background-color: rgb(20, 200, 154);
 }*/
 
-
-
 /* item contents */
 .itemContent{
 	/*padding-left: -1rem;*/
 }
-/* DONT NEED THIS??? */
-a.logo {
-	font-family: RumRaisin;
-}
 
+/*a.logo {
+	font-family: RumRaisin;
+}*/
 
 /* food menu list stuff*/
 #foodItems{
@@ -556,8 +487,6 @@ a.logo {
 	display: inline-block;
 }
 
-
-
 .menuItenPara{
 	padding-left: 100rem;
 }
@@ -566,6 +495,18 @@ a.logo {
 	padding-right: 2rem;
 }
 
+/* SCREEN RESIZING OVERALL*/
+@media (min-width: 20em){ /* for mobile screen size */
+
+	#footer .grid-col-1of4 {
+		font-size: 1em;
+		margin-bottom: 0.1em;
+	}
+}
+
+@media (min-width: 40em){ /* for desktop or bigger screen size */
+
+}
 
 
 

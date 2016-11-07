@@ -63,7 +63,7 @@ input {
 input, textarea, select {
 	-webkit-border-radius: 5px;
 	background-color: rgba(120,120,120,.1);
-	font-family: 'dosislight';
+	font-family: 'DosisLight';
 	font-size: 100%;
 	width: 18rem;
 	padding-right: 5rem;
@@ -80,7 +80,7 @@ input[type=reset] {
 	display: inline-block;
 	color: white;
 	background-color: rgb(20, 200, 154);
-	font-family: dosismedium;
+	font-family: DosisMedium;
 	padding: 0.5em 0.75em;
 	text-decoration: none;
 	-webkit-transition: background-color 0.5s ease-out;
