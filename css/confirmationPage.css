@@ -1,14 +1,23 @@
 #mainBody {
 	text-align: center;
-}
-.conContent {
-
-	width : 80%;
 	display: inline-block;
 }
-p {
-	margin-top: 3em;
+
+/*.conContent {
+	width : 80%;
+	position: center;	
+}*/
+
+#mainBody p{
+	width: 100%;
+	margin-top: 0.5em;
+	padding:0.5em;
 }
+
+/*#mainBody .grid-col-1of3 {
+	text-align: center;
+}*/
+
 .placeHolder {
 	width: 100%;
 }
