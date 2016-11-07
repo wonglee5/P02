@@ -164,7 +164,9 @@ input[type=date] {
 	.grid-col-1of2 img{
 		padding-top: 3em;
 	}
+
 }
+
 
 @media (min-width: 40em){ /* for desktop or bigger screen size */
 	.grid-col-1of2 img{
@@ -173,5 +175,15 @@ input[type=date] {
 }
 
 
+@media (max-width: 35em) {
+	.contentBody {
+		padding-left:1em;
+		padding-right:1em;
+	}
+	input, textarea, input[type=date]{
+		padding: 0;
+		width: 100%;
+	}
 
+}
 
