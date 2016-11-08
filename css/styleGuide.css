@@ -14,7 +14,6 @@ pre {
 	height: 100%;
 }
 
-
 /* 
 	BRAND COMPONENT -------------------
 */
@@ -91,8 +90,6 @@ input[type=reset] {
   background-color: gray;
 }
 
-/* Nav Buttons */
-
 #styleguide .navMain{
 	position: relative;
 }
@@ -111,17 +108,9 @@ input[type=reset] {
 	height: 5em;
 	margin: 0.2em 0.1em 0;
 	text-align: center;
-
 }
 
 /* citation list */
 #citationlist li {
 	padding: 1em 0 0;
 }
-
-
-
-
-
-
-

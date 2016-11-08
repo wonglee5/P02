@@ -14,11 +14,6 @@
 	padding-right:6rem;
 }
 
-/*.grid-col-1of2 {
-	padding-top: 1rem;
-	padding-left: 0;
-}*/
-
 .grid-col-1of2 p{
 	margin-top: 0;
 	padding-right: 4rem;
@@ -33,11 +28,6 @@
 #form{
 	margin-left: 1rem;
 }
-
-/*.img-padding {
-	width: 100%;
-	margin: -.2rem;
-}*/
 
 .button-submit-reset {
 	margin-top: 2rem;
@@ -64,7 +54,6 @@
 	
 }
 
-/* delet possibly?*/
 .placeHolder{
 	width: 12em;
 	height: 12em;

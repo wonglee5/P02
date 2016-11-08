@@ -1,9 +1,3 @@
-/* 
-
-	Declare font-family for website.
-
-*/
-
 @font-face {
 	font-family: 'RumRaisin';
 	font-weight: normal;
@@ -14,7 +8,6 @@
          url('../fonts/RumRaisin.woff') format('woff'),
          url('../fonts/RumRaisin.ttf') format('truetype');
 }
-
 
 @font-face {
     font-family: 'DosisLight';

@@ -1,0 +1,45 @@
+/* font adjustment*/
+html {
+  font-family: sans-serif; 
+  -ms-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%;
+}
+
+/* HTML 5 DISPLAY */
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+/* TEXT ELEMENTS */
+b, strong {
+  font-weight: inherit;
+}
+
+dfn {
+  font-style: italic;
+}
+
+/* FORMS */
+button, input, select, textarea {
+  font: inherit;
+  margin: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+:: -webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.7;
+}

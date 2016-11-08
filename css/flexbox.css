@@ -1,14 +1,7 @@
-/*
-
-	flexbox.css 
-
-*/
-
 /*clear the float, everything is using border-box model */
 *, *::after, *::before{
 	box-sizing: border-box;
 }
-
 
 .box {
 	display:-webkit-flex; /*for browsers that doesn't support flex*/
@@ -32,7 +25,6 @@
 COMBINED ELEMENT-Product Listings
 
 */
-
 .products {
 	display: flex;
 	flex-wrap: wrap;
@@ -61,17 +53,9 @@ COMBINED ELEMENT-Product Listings
 
 }
 
-
 /* for responsive flexbox */
 @media (max-width: 30em) {
 	.product-box {
 		flex: 1 21%;
 	}
 }
-
-/*
-menu bar size 
-element-style {
-	flex-grow: 10;
-}
-*/
